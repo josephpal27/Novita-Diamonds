@@ -1,0 +1,38 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="31.149" height="11.641" viewBox="0 0 31.149 11.641">
+  <g id="Group_10692" data-name="Group 10692" transform="translate(0.1 0.043)">
+    <g id="Group_1987" data-name="Group 1987" transform="translate(0 0)">
+      <g id="Group_1970" data-name="Group 1970" transform="translate(0 0)">
+        <path id="Rectangle_1555" d="M.829,7.6H9.239a.635.635,0,0,1,.629.629V10a.635.635,0,0,1-.629.629H.829A.635.635,0,0,1,.2,10V8.172A.588.588,0,0,1,.829,7.6Z" transform="translate(-0.2 -3.367)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+        <path id="Rectangle_1556" d="M38.029,7.6h8.409a.635.635,0,0,1,.629.629V10a.635.635,0,0,1-.629.629H38.029A.635.635,0,0,1,37.4,10V8.172A.588.588,0,0,1,38.029,7.6Z" transform="translate(-16.119 -3.367)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+        <g id="Group_1935" data-name="Group 1935" transform="translate(21.252 4.372)">
+          <g id="Group_1934" data-name="Group 1934" transform="translate(0 0)">
+            <path id="Ellipse_17_00000039840413386894957490000018141238472024436393_" d="M2.21,0l.159.009a1.324,1.324,0,0,1,1.2,1.352A1.408,1.408,0,0,1,2.395,2.709a.617.617,0,0,1-.185.012C2.108,2.671,1.757.1,2.21,0Z" transform="translate(-1.984)" fill="none" stroke="#000" stroke-width="0.2"/>
+            <ellipse id="Ellipse_17_00000033362427502492246290000009516272363885783692_" cx="1.361" cy="1.361" rx="1.361" ry="1.361" transform="translate(1.587)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+            <ellipse id="Ellipse_17_00000124153137932521776110000006489842012201786032_" cx="1.361" cy="1.361" rx="1.361" ry="1.361" transform="translate(4.195)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+            <ellipse id="Ellipse_17_00000077323121981263342880000010023968349556363909_" cx="1.361" cy="1.361" rx="1.361" ry="1.361" transform="translate(6.803)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          </g>
+        </g>
+        <g id="Group_1938" data-name="Group 1938" transform="translate(0.114 4.36)">
+          <g id="Group_1937" data-name="Group 1937" transform="translate(0 0)">
+            <ellipse id="Ellipse_17_00000125574681246689739780000010064280583665609404_" cx="1.367" cy="1.367" rx="1.367" ry="1.367" transform="translate(5.467)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+            <path id="Ellipse_17_00000018939946233739721340000007975549152257738628_" d="M1.461.223c.035.045-.094,2.514-.095,2.516l-.162-.009A1.329,1.329,0,0,1,0,1.372,1.412,1.412,0,0,1,1.227.012C1.151.018,1.352.223,1.461.223Z" transform="translate(8.086 -0.005)" fill="none" stroke="#000" stroke-width="0.2"/>
+            <ellipse id="Ellipse_18_00000171678556063486116270000000957221738783423366_" cx="1.367" cy="1.367" rx="1.367" ry="1.367" transform="translate(2.733)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+            <ellipse id="Ellipse_19_00000005945153847405183440000008806658171812512400_" cx="1.367" cy="1.367" rx="1.367" ry="1.367" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          </g>
+        </g>
+        <ellipse id="Ellipse_13" cx="5.721" cy="5.721" rx="5.721" ry="5.721" transform="translate(9.725 0.057)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+        <g id="Group_1952" data-name="Group 1952" transform="translate(9.668 0)">
+          <line id="Line_10" y2="2.689" transform="translate(5.721)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <line id="Line_11" x1="1.659" y2="1.602" transform="translate(8.18 1.773)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <line id="Line_12" x2="2.689" transform="translate(8.809 5.778)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <line id="Line_13" x2="1.716" y2="1.773" transform="translate(8.123 7.952)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <line id="Line_14" y2="2.631" transform="translate(5.721 8.867)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <line id="Line_15" x1="1.831" y2="1.831" transform="translate(1.716 7.952)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <line id="Line_16" x1="2.631" transform="translate(0 5.778)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <line id="Line_17" x1="1.888" y1="1.831" transform="translate(1.659 1.716)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <path id="Path_2042" d="M24.9,4.6l2.345.858.8,2.345-.8,2.288-2.345.973-2.345-1.03L21.7,7.8l.858-2.288Z" transform="translate(-19.126 -2.083)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

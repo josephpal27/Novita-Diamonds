@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.788" height="18.16" viewBox="0 0 19.788 18.16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-width: 0.8px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="BT-Appointment" transform="translate(0.4 0.4)">
+    <path id="Path_4791" data-name="Path 4791" class="cls-1" d="M13.671,7.239H26.953V20.31H17.6l-7.009-.071v-13Z" transform="translate(-7.965 -5.546)"/>
+    <path id="Path_4793" data-name="Path 4793" class="cls-1" d="M54.557,2.193v2.35a1.221,1.221,0,0,1-2.417,0V2.193a1.221,1.221,0,0,1,2.417,0" transform="translate(-39.304 -1.15)"/>
+    <path id="Path_4795" data-name="Path 4795" class="cls-1" d="M21.667,2.193v2.35a1.221,1.221,0,0,0,2.416,0V2.193a1.221,1.221,0,0,0-2.416,0" transform="translate(-15.306 -1.15)"/>
+    <path id="Path_4797" data-name="Path 4797" class="cls-1" d="M11.113,38.1a4.982,4.982,0,1,1-4.982-4.982A4.982,4.982,0,0,1,11.113,38.1" transform="translate(-1.15 -25.726)"/>
+    <path id="Path_4798" data-name="Path 4798" class="cls-2" d="M19.45,42.906H16.373V40.26" transform="translate(-11.391 -30.528)"/>
+  </g>
+</svg>

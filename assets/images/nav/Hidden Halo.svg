@@ -1,0 +1,21 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="19.857" height="11.902" viewBox="0 0 19.857 11.902">
+  <g id="Group_10690" data-name="Group 10690" transform="translate(0.1 0.1)">
+    <g id="Group_1984" data-name="Group 1984" transform="translate(0 0)">
+      <g id="Group_1971" data-name="Group 1971" transform="translate(0 0)">
+        <path id="Union_4" data-name="Union 4" d="M0,10.674A11.639,11.639,0,0,1,8.243,5.062L6.408,2.669H5.7a.233.233,0,0,1-.206-.25V1.691a.24.24,0,0,1,.049-.151L4.97.793A.27.27,0,0,1,4.962.422L5.456.036a.271.271,0,0,1,.358.1l.944,1.33H9.293V.525c0-.162.1-.3.222-.3h.626c.121,0,.222.135.222.3v.939h2.66l.987-1.33a.271.271,0,0,1,.358-.1l.493.386a.27.27,0,0,1-.008.371l-.548.72a.271.271,0,0,1,.085.2v.7a.234.234,0,0,1-.206.25h-.759L11.63,5.03a10.971,10.971,0,0,1,8.027,5.428s-1.815.221-1.783.216S14.651,6.348,9.747,6.362s-7.916,4.312-7.916,4.312-.781.009-1.323.009C.238,10.683.026,10.68,0,10.674ZM9.235,4.955l.058,0V2.669H7.613Zm1.129-.024.087,0L12.13,2.669H10.363Z" transform="translate(0 1.02)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.2"/>
+        <path id="Path_5993" data-name="Path 5993" d="M16.05-1.7l1.312-1.351H22.7l1.3,1.351" transform="translate(-10.132 3.049)" fill="none" stroke="#000" stroke-width="0.2"/>
+        <g id="Group_1936" data-name="Group 1936" transform="translate(5.494 2.484)">
+          <ellipse id="Ellipse_18_00000000203830023839668060000002243007763416291723_" cx="0.565" cy="0.579" rx="0.565" ry="0.579" transform="translate(0)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <ellipse id="Ellipse_18_00000000203830023839668060000002243007763416291723_2" data-name="Ellipse_18_00000000203830023839668060000002243007763416291723_" cx="0.565" cy="0.579" rx="0.565" ry="0.579" transform="translate(2.219)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <ellipse id="Ellipse_18_00000000203830023839668060000002243007763416291723_3" data-name="Ellipse_18_00000000203830023839668060000002243007763416291723_" cx="0.565" cy="0.579" rx="0.565" ry="0.579" transform="translate(4.438)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <ellipse id="Ellipse_18_00000000203830023839668060000002243007763416291723_4" data-name="Ellipse_18_00000000203830023839668060000002243007763416291723_" cx="0.565" cy="0.579" rx="0.565" ry="0.579" transform="translate(6.636)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <ellipse id="Ellipse_18_00000000203830023839668060000002243007763416291723_5" data-name="Ellipse_18_00000000203830023839668060000002243007763416291723_" cx="0.565" cy="0.579" rx="0.565" ry="0.579" transform="translate(1.13)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <ellipse id="Ellipse_18_00000000203830023839668060000002243007763416291723_6" data-name="Ellipse_18_00000000203830023839668060000002243007763416291723_" cx="0.565" cy="0.579" rx="0.565" ry="0.579" transform="translate(3.329)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <ellipse id="Ellipse_18_00000000203830023839668060000002243007763416291723_7" data-name="Ellipse_18_00000000203830023839668060000002243007763416291723_" cx="0.565" cy="0.579" rx="0.565" ry="0.579" transform="translate(5.547)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+          <ellipse id="Ellipse_18_00000000203830023839668060000002243007763416291723_8" data-name="Ellipse_18_00000000203830023839668060000002243007763416291723_" cx="0.565" cy="0.579" rx="0.565" ry="0.579" transform="translate(7.767)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+        </g>
+        <path id="Rectangle_1556" d="M32.193,7.6h8.485a.233.233,0,0,1,.206.25v.7a.233.233,0,0,1-.206.25H32.193a.233.233,0,0,1-.206-.25V7.827A.212.212,0,0,1,32.193,7.6Z" transform="translate(-26.493 -5.116)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.2"/>
+      </g>
+    </g>
+  </g>
+</svg>
