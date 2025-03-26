@@ -615,7 +615,7 @@ header i:hover{
 }
 .filter-sort-head h1{
     margin: 0;
-    font-size: calc(1.3rem + 0.5vw);
+    font-size: calc(1.2rem + 0.5vw);
     font-style: italic;
     cursor: pointer;
     width: max-content;
@@ -624,7 +624,7 @@ header i:hover{
 }
 .filter-sort-head i{
     margin-left: 0.6rem;
-    font-size: calc(0.8rem + 0.5vw);
+    font-size: calc(0.7rem + 0.5vw);
 }
 .filter{
     border-right: 1.2px solid #d3d3d3;
@@ -657,6 +657,8 @@ header i:hover{
     border-radius: 5px;
     position: absolute;
     display: none;
+    z-index: 10;
+    background-color: #fff;
 }
 .filter-sort-content .content-box.show{
     display: block;
@@ -674,6 +676,25 @@ header i:hover{
 
 /* Collection Start */
 .collection{
-    padding: 10rem 5%;
+    padding: 2rem 5%;
+}
+.collection-row{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2.6%;
+}
+.collection-row .card{
+    width: 23%;
+}
+.collection-row .card img{
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.collection-row .card img:hover{
+    transform: rotateY(180deg);
+}
+.collection-row .card img.noRotation{
+    transform: rotateY(0);
 }
 /* Collection End */
