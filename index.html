@@ -62,7 +62,7 @@
                 <!-- <p><i class="fa-solid fa-phone"></i> +61 1800 503 082</p>  -->
                 <p><img src="assets/images/icons/phone.svg" alt="icon"> +61 1800 503 082</p> 
                 <!-- <p><a href=""><i class="fa-brands fa-square-whatsapp"></i> +61 406 471 283</a></p>  -->
-                <p><img src="assets/images/icons/whatsapp.svg" alt="icon"> +61 406 471 283</a></p> 
+                <p><a href=""><img src="assets/images/icons/whatsapp.svg" alt="icon"> +61 406 471 283</a></p> 
             </div>
             <div class="right">
                 <!-- <a href=""><i class="fa-solid fa-location-dot"></i></a> -->
@@ -354,6 +354,91 @@
     </nav> 
     <!-- Web Navbar End -->
 
+    <!-- Top Text Start -->
+    <section class="top-text">
+        <h1>Australia’s Largest Lab Grown Diamond Specialist</h1>
+        <div class="top-text-content">
+            <div class="top-text-left">
+                <a href=""><button>SHOP LAB GROWN DIAMONDS</button></a>
+            </div>
+            <div class="top-text-right">
+                <p>Recognised as a leading lab diamond premium jewellery brand in Australia and the world. <b>We stock on hand over 2400 lab grown diamonds in Australia,</b> locations in Sydney, Melbourne, Brisbane, Adelaide, Perth and Parramatta.</p>
+            </div>
+        </div>
+    </section> 
+    <!-- Top Text End -->
+
+    <!-- Banner Slider Start -->
+    <section class="banner-slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/images/banner/banner-1.webp" alt="banner">
+                    <div class="banner-layer" id="banner-layer-1">
+                        <div class="btn-box">
+                            <a href=""><button>BOOK A VIRTUAL APPOINTMENT</button></a>
+                            <p>We Ship to Most Countries |</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/banner/banner-2.webp" alt="banner">
+                    <div class="banner-layer" id="banner-layer-2">
+                        <div class="btn-box">
+                            <a href=""><button>BOOK YOUR APPOINTMENT NOW</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/banner/banner-3.webp" alt="banner">
+                    <div class="banner-layer" id="banner-layer-3">
+                        <div class="btn-box">
+                            <a href=""><button>EXPRESS ENGAGEMENT RINGS</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/banner/banner-4.webp" alt="banner">
+                    <div class="banner-layer" id="banner-layer-4">
+                        <div class="btn-box">
+                            <a href=""><button>SHOP & SUPPORT WOMEN</button></a>
+                            <p>From 01st until 31st March 2025 <a href="">T&C Apply</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/banner/banner-5.webp" alt="banner">
+                    <div class="banner-layer" id="banner-layer-5">
+                        <div class="btn-box">
+                            <h1>Local Stock On Hand Of 2400+</h1>
+                            <h2>Quality Guaranteed Lab Diamonds</h2>
+                            <a href=""><button>START WITH A DIAMOND</button></a>
+                            <h1>Ring Designs by Master Jewellers</h1>
+                            <h2>Life Time Warranty & 30-Day Returns</h2>
+                            <a href=""><button>START WITH A RING DESIGN</button></a>
+                            <div class="review">
+                                <img src="assets/images/icons/google-review.svg" alt="google-review">
+                                <p>8803 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div> 
+    </section> 
+    <!-- Banner End -->
+
+    <!-- Vertual Appointment Start -->
+    <section class="virtual-appointment">
+        <a href="">BOOK VIRTUAL APPOINTMENT <img src="assets/images/icons/Appointment booking icon.svg" alt="icon"></a>
+    </section> 
+    <!-- Vertual Appointment End -->
+
 
     <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -365,7 +450,7 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@latest/swiper-bundle.min.js"></script>
 
-    <!-- Swiper Initialization -->
+    <!-- Header Swiper Initialization -->
     <script>
         const swiper = new Swiper('.header-slider .swiper-container', {
             loop: true,
@@ -375,6 +460,27 @@
             },
             effect: 'slide',
             speed: 1000,
+        });
+    </script>
+
+    <!-- Banner Swiper Initialization -->
+    <script>
+        const bannerSwiper = new Swiper('.banner-slider .swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            effect: 'slide',
+            speed: 1000,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
         });
     </script>
 
