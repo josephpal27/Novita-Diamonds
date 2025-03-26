@@ -541,7 +541,7 @@ header i:hover{
 }
 /* Banner Slider End */
 
-/* Vertual Appointment Start */
+/* Virtual Appointment Start */
 .virtual-appointment{
     background-color: #000;
     display: flex;
@@ -563,4 +563,117 @@ header i:hover{
     width: 20px;
     margin-left: 0.3rem;
 }
-/* Vertual Appointment End */
+/* Virtual Appointment End */
+
+/* Collection Head Start */
+.collection-head{
+    padding: 2rem 0 0 0;
+}
+.collection-head h1{
+    font-size: calc(1.7rem + 0.5vw);
+    text-align: center;
+    /* font-weight: 600; */
+    font-style: italic;
+}
+.collection-head .excellent{
+    padding: 0.4rem 0;
+    border-top: 1px solid #909090;
+    border-bottom: 1px solid #909090;
+}
+.collection-head .excellent a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: #000;
+    font-size: calc(0.55rem + 0.5vw);
+}
+.collection-head .excellent p{
+    margin: 0;
+    color: #000;
+}
+.collection-head .excellent span:nth-child(1) p{
+    font-size: calc(0.7rem + 0.5vw);
+}
+.collection-head .excellent img{
+    width: 100px;
+}
+.collection-head .excellent #logo img{
+    width: 80px;
+}
+/* Collection Head End */
+
+/* Filter Sort Start */
+.filter-sort{
+    margin: 0 5%;
+    border-bottom: 1.2px solid #d3d3d3;
+    display: flex;
+}
+.filter-sort-head{
+    width: 50%;
+}
+.filter-sort-head h1{
+    margin: 0;
+    font-size: calc(1.3rem + 0.5vw);
+    font-style: italic;
+    cursor: pointer;
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+.filter-sort-head i{
+    margin-left: 0.6rem;
+    font-size: calc(0.8rem + 0.5vw);
+}
+.filter{
+    border-right: 1.2px solid #d3d3d3;
+    padding: 0.7rem 9rem 0.7rem 0;
+    display: flex;
+    justify-content: end;
+}
+.sort{
+    padding: 0.7rem 0 0.7rem 9rem;
+}
+.filter-sort-content{
+    display: flex;
+}
+.filter-sort-content .filter-content,
+.filter-sort-content .sort-content{
+    width: 50%;
+}
+.filter-sort-content .filter-content{
+    display: flex;
+    justify-content: end;
+    padding-right: 4rem;
+}
+.filter-sort-content .sort-content{
+    padding-left: 4rem;
+}
+.filter-sort-content .content-box{
+    width: 23%;
+    padding: 1.5rem 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 5px;
+    position: absolute;
+    display: none;
+}
+.filter-sort-content .content-box.show{
+    display: block;
+}
+.filter-sort-content .content-box a{
+    display: block;
+    text-decoration: none;
+    color: #4c4c4c;
+    font-size: calc(0.55rem + 0.5vw);
+}
+.filter-sort-content .content-box a:hover{
+    text-decoration: underline;
+}
+/* Filter Sort End */
+
+/* Collection Start */
+.collection{
+    padding: 10rem 5%;
+}
+/* Collection End */

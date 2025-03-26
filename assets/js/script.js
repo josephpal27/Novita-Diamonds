@@ -54,3 +54,53 @@ navContent.forEach(content => {
         navMenu.forEach(menu => { menu.classList.remove('active') });
     });
 });
+
+
+// ----------------------------------------------------------------------------------------
+
+// Functionality For Filter Sort Dropdown
+document.querySelectorAll('.filter-sort-head h1').forEach((head, index) => {
+  head.addEventListener('click', (event) => {
+      // Prevent the click from propagating to the document
+      event.stopPropagation();
+
+      // Get the respective content box and icon
+      const contentBoxes = document.querySelectorAll('.filter-sort-content .content-box');
+      const icon = head.querySelector('i');
+
+      // Check if the clicked dropdown is already open
+      if (contentBoxes[index].classList.contains('show')) {
+          // Close the dropdown and reset the icon
+          contentBoxes[index].classList.remove('show');
+          icon.classList.remove('fa-angle-up');
+          icon.classList.add('fa-angle-down');
+      } else {
+          // Hide all content boxes and reset all icons
+          document.querySelectorAll('.filter-sort-content .content-box').forEach(box => {
+              box.classList.remove('show');
+          });
+          document.querySelectorAll('.filter-sort-head h1 i').forEach(icon => {
+              icon.classList.remove('fa-angle-up');
+              icon.classList.add('fa-angle-down');
+          });
+
+          // Show the respective content box and toggle the icon
+          contentBoxes[index].classList.add('show');
+          icon.classList.remove('fa-angle-down');
+          icon.classList.add('fa-angle-up');
+      }
+  });
+});
+
+// Close the content box and reset icons when clicking outside
+document.addEventListener('click', () => {
+  document.querySelectorAll('.filter-sort-content .content-box').forEach(box => {
+      box.classList.remove('show');
+  });
+  document.querySelectorAll('.filter-sort-head h1 i').forEach(icon => {
+      icon.classList.remove('fa-angle-up');
+      icon.classList.add('fa-angle-down');
+  });
+});
+
+// ----------------------------------------------------------------------------------------
