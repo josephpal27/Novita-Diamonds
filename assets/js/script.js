@@ -104,3 +104,35 @@ document.addEventListener('click', () => {
 });
 
 // ----------------------------------------------------------------------------------------
+
+// Functionality for Home Page Collection Tabbing System
+let contentTabs = document.querySelectorAll('.tab-content');
+let tabButtons = document.querySelectorAll('.tab-btn-row button');
+
+tabButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+      // Hide all content boxes
+      contentTabs.forEach(tab => {
+          tab.classList.add('hide');
+      });
+
+      // Remove active class from all buttons
+      tabButtons.forEach(btn => {
+          btn.classList.remove('active');
+      });
+
+      // Show the respective content box and add active class to the button
+      contentTabs[index].classList.remove('hide');
+      button.classList.add('active');
+
+      // Scroll to #collection after a 2-second delay
+      setTimeout(() => {
+        const target = document.querySelector('#collection');
+        if (target) {
+            lenis.scrollTo(target, { duration: 1 }); // Smooth scroll using Lenis
+        }
+      }, 500); // 0.5-second delay
+  });
+})
+
+// ----------------------------------------------------------------------------------------

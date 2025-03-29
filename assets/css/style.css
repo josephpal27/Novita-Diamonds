@@ -695,24 +695,53 @@ header i:hover{
     width: 23.5%;
     border-radius: 0;
     border: 1.5px solid #eee;
+    text-decoration: none;
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 .collection-row .card:hover{
     border: 1.5px solid #f7b5b4;
 }
 .collection-row .card .card-img{
     padding: 0.9rem 0.9rem 0 0.9rem;
+    position: relative;
 }
 .collection-row .card .card-img img{
     width: 100%;
-    transition: transform 0.3s ease-in-out;
+    /* transition: transform 0.3s ease-in-out; */
 }
-.collection-row .card .card-img img:hover{
+.collection-row .card .card-img #guaranteed-img{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.3rem;
+    width: 75px;
+}
+.collection-row .card .card-img .new{
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    border: 1.5px solid #000;
+    font-size: calc(0.35rem + 0.5vw);
+    font-weight: 600;
+    padding: 0 8px 0 6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.collection-row .card .card-img #img-2{
+    display: none;
+}
+.collection-row .card .card-img:hover #img-1{
+    display: none;
+}
+.collection-row .card .card-img:hover #img-2{
+    display: block;
+}
+/* .collection-row .card .card-img img:hover{
     transform: rotateY(180deg);
 }
 .collection-row .card .card-img img.noRotation{
     transform: rotateY(0);
-}
+} */
 .collection-row .card .card-body{
     display: flex;
     flex-direction: column;
@@ -730,6 +759,7 @@ header i:hover{
     color: #000;
     margin-top: 0.3rem;
     margin-bottom: 0;
+    text-align: center;
 }
 .collection-row .card .card-body p{
     font-size: calc(0.43rem + 0.5vw);
@@ -747,6 +777,13 @@ header i:hover{
     font-size: calc(0.2rem + 0.5vw);
     font-weight: 500;
     color: #000;
+}
+.collection-row .card-body label{
+    font-size: calc(0.3rem + 0.5vw);
+    margin-top: 4px;
+    width: 100%;
+    text-align: center;
+    background-color: #efefef;
 }
 .collection-row .explore-card button{
     font-size: calc(0.45rem + 0.5vw);
@@ -768,5 +805,52 @@ header i:hover{
     color: #000;
     font-size: calc(0.45rem + 0.5vw);
     margin-left: 4px;
+}
+
+/* Ready to Ship Start */
+.ready-to-ship{
+    margin: 0.5rem 0 2.5rem 0;
+    padding: 0.4rem 0;
+    background-color: #fcecec;
+    color: #000;
+    text-align: center;
+}
+.ready-to-ship p{
+    margin: 0;
+    font-size: calc(0.9rem + 0.5vw);
+}
+.ready-to-ship p a{
+    color: #000;
+}
+/* Ready to Ship End */
+
+/* ---------------------------------------------- */
+/* Tab System */
+.tab-content.hide{
+    display: none;
+}
+.tab-btn-row{
+    margin: 4rem auto 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #d3d3d3;
+    width: 60%;
+}
+.tab-btn-row button{
+    width: 17%;
+    border: none;
+    font-size: calc(0.6rem + 0.5vw);
+    border-bottom: 3px solid transparent;
+    background-color: transparent;
+    color: #4c4c4c;
+    transition: background-color 0.1s ease;
+}
+.tab-btn-row button:hover{
+    background-color: #f5bbba;
+    border-bottom: 3px solid #000;
+}
+.tab-btn-row button.active{
+    border-bottom: 3px solid #000;
+    color: #000;
+    font-weight: 600;
 }
 /* Collection End */
