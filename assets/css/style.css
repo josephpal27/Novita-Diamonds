@@ -854,3 +854,342 @@ header i:hover{
     font-weight: 600;
 }
 /* Collection End */
+
+/* Two Text Head Start */
+.two-text-head{
+    padding: 0.5rem 5%;
+    display: flex;
+    align-items: center;
+}
+.two-text-head h2{
+    font-size: calc(1.3rem + 0.5vw);
+    font-style: italic;
+    color: #4c4c4c;
+}
+.two-text-head h3{
+    font-size: calc(1.3rem + 0.5vw);
+    font-style: italic;
+    color: #000;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.two-text-head span{
+    font-size: calc(4rem + 0.5vw);
+    color: #6f6f6f;
+    margin-top: 1rem;
+    font-weight: 100;
+}
+/* Two Text Head End */
+
+/* Local Stock Start */
+.local-stock{
+    overflow: hidden;
+    position: relative;
+}
+.local-stock img{
+    width: 100%;
+}
+.local-stock-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 5% 3rem 5%;
+}
+.local-stock-content .local-stock-left,
+.local-stock-content .local-stock-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.local-stock-content .local-stock-right{
+    justify-content: end;
+}
+.local-stock-content h3{
+    font-weight: 600;
+    color: #000;
+    font-size: calc(1.1rem + 0.5vw);
+    margin: 0;
+    /* text-align: center; */
+}
+.local-stock-content p{
+    font-weight: 600;
+    color: #000;
+    font-size: calc(0.6rem + 0.5vw);
+    margin: 0;
+    text-align: center;
+}
+.local-stock-content button{
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    font-size: calc(0.7rem + 0.5vw);
+    padding: 0.35rem 2rem;
+    border: 1px solid #000;
+    margin-top: 0.5rem;
+    transition: all 0.1s ease;
+}
+.local-stock-content button:hover{
+    color: #000;
+    background-color: #fff;
+}
+/* Local Stock End */
+
+/* Showrooms Start */
+.showrooms{
+    padding: 0 5% 1rem 5%;
+    margin-top: 0.5rem;
+    background-color: #f3f2f7;
+}
+.showrooms .two-text-head{
+    margin: 0;
+    padding: 0;
+}
+.showrooms .showroom-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.showrooms .showroom-left{
+    width: 59%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    /* background-color: red; */
+}
+.showrooms .showroom-left .showroom-box{
+    width: 30%;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.showrooms .showroom-left .showroom-box h4{
+    font-size: calc(0.9rem + 0.5vw);
+    color: #000;
+    cursor: pointer;
+    width: max-content;
+    border-bottom: 1px solid #f5bbba88;
+}
+.showrooms .showroom-left .showroom-box h4 i{
+    font-size: calc(0.7rem + 0.5vw);
+    margin-left: 3px;
+}
+.showrooms .showroom-left .showroom-box h4 a{
+    text-decoration: none;
+    color: #000;
+}
+.showrooms .showroom-left .showroom-body{
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    display: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.showrooms .showroom-left .showroom-body.active{
+    display: block;
+}
+.showrooms .showroom-left .showroom-body a{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: calc(0.55rem + 0.5vw);
+    padding: 0.3rem 1rem;
+    border-bottom: 1px solid #b8b8b8;
+}
+.showrooms .showroom-left .showroom-body a:last-child{
+    border-bottom: none;
+}
+.showrooms .showroom-left .showroom-body a:hover{
+    color: #f7b5b4;
+}
+
+
+.showrooms .showroom-right{
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.showrooms .showroom-right h5{
+    font-size: calc(0.9rem + 0.5vw);
+    color: #000;
+    margin: 0;
+}
+.showrooms .showroom-right button{
+    font-size: calc(0.6rem + 0.5vw);
+    padding: 0.35rem 0;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    border: none;
+    margin-top: 0.5rem;
+    transition: all 0.1s ease;
+}
+.showrooms .showroom-right button:hover{
+    background-color: #f7b5b4;
+}
+.showrooms .showroom-right .call-expert-row{
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.5rem;
+    font-size: calc(0.7rem + 0.5vw);
+}
+.showrooms .showroom-right .call-expert-row p{
+    color: #000;
+    font-weight: 600;
+}
+/* Showrooms End */
+
+/* Recently Purchased Start */
+.recently-purchased{
+    padding: 0 5%;
+}
+.recently-purchased .two-text-head{
+    margin: 0;
+    padding: 0;
+}
+.recently-purchased #recently-purchased-sub-head{
+    margin-top: -1rem;
+}
+.recently-purchased .product-slider{
+    overflow: hidden;
+    position: relative;
+}
+.recently-purchased .product-slider .swiper-slide{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+.recently-purchased .product-slider .swiper-slide img{
+    width: 100%;
+}
+.recently-purchased .product-slider .swiper-slide h5{
+    margin: 0;
+    font-weight: 600;
+    font-size: calc(0.6rem + 0.5vw);
+    margin-top: 0.6rem;
+}
+.recently-purchased .product-slider .swiper-slide p{
+    margin: 0;
+    font-size: calc(0.45rem + 0.5vw);
+    line-height: 1.2;
+}
+
+.recently-purchased .product-slider .swiper-button-next,
+.recently-purchased .product-slider .swiper-button-prev {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.recently-purchased .product-slider .swiper-button-next {
+    right: 0;
+}
+
+.recently-purchased .product-slider .swiper-button-prev {
+    left: 0;
+}
+.recently-purchased .product-slider .swiper-button-next:hover,
+.recently-purchased .product-slider .swiper-button-prev:hover {
+    color: #f5bbba;
+}
+/* Recently Purchased End */
+
+/* Lab Diamond Start */
+.lab-diamond{
+    padding: 1rem 5%;
+}
+.lab-diamond .two-text-head{
+    margin: 0;
+    padding: 0;
+}
+.lab-diamond .lab-diamond-content{
+    display: flex;
+    justify-content: space-between;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-banner{
+    width: 53%;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-banner img{
+    width: 100%;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card{
+    width: 48%;
+    /* height: 50%; */
+    border-radius: 0;
+    border: 1.5px solid #eee;
+    text-decoration: none;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card:hover{
+    border: 1.5px solid #f7b5b4;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-img{
+    padding: 0.9rem 0.9rem 0 0.9rem;
+    position: relative;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-img img{
+    width: 100%;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-img .new{
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    border: 1.5px solid #000;
+    font-size: calc(0.35rem + 0.5vw);
+    font-weight: 600;
+    padding: 0 8px 0 6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-img #img-2{
+    display: none;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-img:hover #img-1{
+    display: none;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-img:hover #img-2{
+    display: block;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.4rem 0;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body h2{
+    font-size: calc(0.7rem + 0.5vw);
+    color: #000;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body p{
+    font-size: calc(0.43rem + 0.5vw);
+    color: #464646;
+    margin: 0;
+}
+.lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body h1{
+    font-size: calc(1.15rem + 0.5vw);
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    margin-top: 0.3rem;
+}
+/* Lab Diamond End */

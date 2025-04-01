@@ -136,3 +136,38 @@ tabButtons.forEach((button, index) => {
 })
 
 // ----------------------------------------------------------------------------------------
+
+// Functionality for Home Page Showrooms Dropdown
+let showroomCountries = document.querySelectorAll('.showroom-left .dropdown-box .showroom-head h4');
+let showrooms = document.querySelectorAll('.showroom-left .dropdown-box .showroom-body');
+
+showroomCountries.forEach((country, index) => {
+  country.addEventListener('click', (event) => {
+    event.stopPropagation(); // Prevent the click from propagating to the document
+
+    showrooms.forEach((showroom, i) => {
+      const icon = showroomCountries[i].querySelector('i'); // Get the icon inside the current head
+      if (i === index) {
+        showroom.classList.toggle('active'); // Toggle the dropdown visibility
+        icon.classList.toggle('fa-angle-down'); // Toggle the down icon
+        icon.classList.toggle('fa-angle-up'); // Toggle the up icon
+      } else {
+        showroom.classList.remove('active'); // Close other dropdowns
+        icon.classList.remove('fa-angle-up'); // Reset to down icon
+        icon.classList.add('fa-angle-down');
+      }
+    });
+  });
+});
+
+// Close the dropdown when clicking outside
+document.addEventListener('click', () => {
+  showrooms.forEach((showroom, i) => {
+    showroom.classList.remove('active'); // Close all dropdowns
+    const icon = showroomCountries[i].querySelector('i'); // Reset all icons
+    icon.classList.remove('fa-angle-up');
+    icon.classList.add('fa-angle-down');
+  });
+});
+
+// ----------------------------------------------------------------------------------------
