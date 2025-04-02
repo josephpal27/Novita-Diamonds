@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="393" viewBox="0 0 600 393">
+  <defs>
+    <clipPath id="clip-Chart_AU_MAR_2025">
+      <rect width="600" height="393"/>
+    </clipPath>
+  </defs>
+  <g id="Chart_AU_MAR_2025" data-name="Chart AU MAR 2025" clip-path="url(#clip-Chart_AU_MAR_2025)">
+    <rect width="600" height="393" fill="#fff"/>
+    <rect id="Rectángulo_2901" data-name="Rectángulo 2901" width="600" height="393" fill="#fff"/>
+    <line id="Línea_272" data-name="Línea 272" x2="460.382" transform="translate(96.344 306.99)" fill="none" stroke="#dfdfde" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Línea_280" data-name="Línea 280" x2="460.382" transform="translate(96.344 271.706)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_281" data-name="Línea 281" x2="460.382" transform="translate(96.344 289.348)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_282" data-name="Línea 282" x2="460.382" transform="translate(96.344 254.064)" fill="none" stroke="#dfdfde" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Línea_283" data-name="Línea 283" x2="460.382" transform="translate(96.344 236.422)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_284" data-name="Línea 284" x2="460.382" transform="translate(96.344 218.78)" fill="none" stroke="#dfdfde" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Línea_285" data-name="Línea 285" x2="460.382" transform="translate(96.344 201.138)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_286" data-name="Línea 286" x2="460.382" transform="translate(96.344 183.496)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_287" data-name="Línea 287" x2="460.382" transform="translate(96.344 165.854)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_288" data-name="Línea 288" x2="460.382" transform="translate(96.344 148.212)" fill="none" stroke="#dfdfde" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Línea_289" data-name="Línea 289" x2="460.382" transform="translate(96.344 130.57)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_290" data-name="Línea 290" x2="460.382" transform="translate(96.344 112.928)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_291" data-name="Línea 291" x2="460.382" transform="translate(96.344 95.286)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_292" data-name="Línea 292" x2="460.382" transform="translate(96.344 77.644)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_293" data-name="Línea 293" x2="460.382" transform="translate(96.344 60.002)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_294" data-name="Línea 294" x2="460.382" transform="translate(96.344 42.36)" fill="none" stroke="#dfdfde" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectángulo_2896" data-name="Rectángulo 2896" width="463.393" height="36.84" transform="translate(95.084 324.938)" fill="#e0e1e3"/>
+    <rect id="Rectángulo_2897" data-name="Rectángulo 2897" width="53.009" height="22.807" transform="translate(132.951 301.77)" fill="#f0a9aa"/>
+    <rect id="Rectángulo_2898" data-name="Rectángulo 2898" width="53.009" height="94.175" transform="translate(245 230.763)" fill="#8e8e8e"/>
+    <g id="Grupo_1" data-name="Grupo 1" transform="translate(260 234.01)">
+      <path id="Trazado_7095" data-name="Trazado 7095" d="M165.118,130.843a11.746,11.746,0,1,0,11.745,11.745,11.745,11.745,0,0,0-11.745-11.745Z" transform="translate(-153.373 -130.843)" fill="#fff"/>
+      <path id="Trazado_7096" data-name="Trazado 7096" d="M164.925,144.839,162.6,141.71l-2.382,3.129h-3.388l4.046-4.965-3.817-4.822h3.386l2.21,2.957,2.239-2.957h3.272l-3.788,4.764,4.017,5.023Z" transform="translate(-150.868 -128.163)" fill="#8e8e8e"/>
+    </g>
+    <rect id="Rectángulo_2899" data-name="Rectángulo 2899" width="53.009" height="47.595" transform="translate(356 277.343)" fill="#f0a9aa"/>
+    <rect id="Rectángulo_2900" data-name="Rectángulo 2900" width="53.009" height="254.347" transform="translate(466 70.592)" fill="#8e8e8e"/>
+    <path id="Trazado_7097" data-name="Trazado 7097" d="M237.848,152.117a11.746,11.746,0,1,0,11.745,11.745,11.746,11.746,0,0,0-11.745-11.745Zm6.014,8.5-7.55,7.583h-.006a1.014,1.014,0,0,1-.655.312.983.983,0,0,1-.66-.321l-3.166-3.164a.224.224,0,0,1,0-.316l0,0,1.009-1a.218.218,0,0,1,.308-.006l.008.006,2.507,2.507,6.89-6.939a.222.222,0,0,1,.161-.067.2.2,0,0,1,.161.067l.988,1.022a.223.223,0,0,1,.016.315l-.01.01" transform="translate(143.899 129.164)" fill="#fff"/>
+    <g id="Grupo_2" data-name="Grupo 2" transform="translate(481 74.447)">
+      <path id="Trazado_7098" data-name="Trazado 7098" d="M305.605,43.651A11.746,11.746,0,1,0,317.351,55.4a11.745,11.745,0,0,0-11.746-11.745Z" transform="translate(-293.86 -43.651)" fill="#fff"/>
+      <path id="Trazado_7099" data-name="Trazado 7099" d="M305.411,57.647l-2.324-3.129L300.7,57.647h-3.386l4.045-4.965-3.817-4.822h3.388l2.21,2.957,2.238-2.957h3.274l-3.789,4.764,4.017,5.023Z" transform="translate(-291.018 -40.928)" fill="#8e8e8e"/>
+    </g>
+    <text id="_1_067" data-name="$1,067" transform="translate(157.839 297.128)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-20.168" y="0">$1,067</tspan></text>
+    <text id="_1ct_Lab_Diamonds" data-name="1ct
+Lab Diamonds" transform="translate(157.839 342.043)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-8.616" y="0">1ct</tspan><tspan font-size="11" font-family="MrEavesXLModOT-Reg, Mr Eaves XL Mod OT" font-weight="400"><tspan x="-32.269" y="10">Lab Diamonds</tspan></tspan></text>
+    <text id="_2ct_Lab_Diamonds" data-name="2ct
+Lab Diamonds" transform="translate(382 342.043)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-9.896" y="0">2ct</tspan><tspan font-size="11" font-family="MrEavesXLModOT-Reg, Mr Eaves XL Mod OT" font-weight="400"><tspan x="-32.269" y="10">Lab Diamonds</tspan></tspan></text>
+    <text id="_1ct_Mined_Diamonds" data-name="1ct
+Mined Diamonds" transform="translate(272 342.043)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-8.616" y="0">1ct</tspan><tspan font-size="11" font-family="MrEavesXLModOT-Reg, Mr Eaves XL Mod OT" font-weight="400"><tspan x="-37.527" y="10">Mined Diamonds</tspan></tspan></text>
+    <text id="_2ct_Mined_Diamonds" data-name="2ct
+Mined Diamonds" transform="translate(493 342.043)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-9.896" y="0">2ct</tspan><tspan font-size="11" font-family="MrEavesXLModOT-Reg, Mr Eaves XL Mod OT" font-weight="400"><tspan x="-37.527" y="10">Mined Diamonds</tspan></tspan></text>
+    <text id="_5_445" data-name="$5,445" transform="translate(272 227.142)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-22.176" y="0">$5,445</tspan></text>
+    <text id="_16_000" data-name="$16,000" transform="translate(79.406 46.539)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-51.792" y="0">$16,000</tspan></text>
+    <text id="_10_000" data-name="$10,000" transform="translate(78.146 152.391)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-52.224" y="0">$10,000</tspan></text>
+    <text id="_6_000" data-name="$6,000" transform="translate(79.447 222.959)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-46.992" y="0">$6,000</tspan></text>
+    <text id="_4_000" data-name="$4,000" transform="translate(79.447 258.243)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-47.36" y="0">$4,000</tspan></text>
+    <text id="_1_000" data-name="$1,000" transform="translate(79.227 311.169)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-42.912" y="0">$1,000</tspan></text>
+    <text id="_0" data-name="$0" transform="translate(82.211 333.222)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-16.768" y="0">$0</tspan></text>
+    <text id="_2_640" data-name="$2,640" transform="translate(382 274.625)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-22.568" y="0">$2,640</tspan></text>
+    <text id="_14_080" data-name="$14,080" transform="translate(493 65.395)" fill="#464749" font-size="16" font-family="MrEavesXLModOT-Bold, Mr Eaves XL Mod OT" font-weight="700"><tspan x="-25.864" y="0">$14,080</tspan></text>
+    <path id="Trazado_7008" data-name="Trazado 7008" d="M54.375,38.978V330.333H516.508" transform="translate(41.969 -5.757)" fill="none" stroke="#f0a9aa" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Trazado_7101" data-name="Trazado 7101" d="M236.875,152.117a10.773,10.773,0,1,0,10.773,10.772,10.773,10.773,0,0,0-10.773-10.772Zm5.516,7.8-6.924,6.955h-.006a.931.931,0,0,1-.6.286.9.9,0,0,1-.606-.295l-2.9-2.9a.205.205,0,0,1,0-.29l0,0,.925-.919a.2.2,0,0,1,.283-.006l.007.006,2.3,2.3,6.319-6.365a.2.2,0,0,1,.147-.062.186.186,0,0,1,.147.062l.906.937a.2.2,0,0,1,.015.289l-.009.009" transform="translate(-78.213 150.913)" fill="#fff"/>
+  </g>
+</svg>
