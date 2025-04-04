@@ -1,0 +1,68 @@
+/* Customize Head Start */
+.customize-head{
+    padding: 2rem 5%;
+}
+.customize-head h5{
+    text-align: center;
+    font-size: calc(0.7rem + 1vw);
+}
+/* Customize Head End */
+
+/* Filter Head Start */
+.filter-head{
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter-head h4{
+    font-size: calc(1rem + 1vw);
+}
+.filter-head button{
+    font-size: calc(0.5rem + 0.5vw);
+    padding: 0.4rem 1rem;
+    border: 1.5px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+.filter-head button:last-child{
+    background-color: #000;
+    color: #fff;
+    margin-left: 0.5rem;
+}
+/* Filter Head End */
+
+/* Filter Body Start */
+.filter-body{
+    margin: 1rem 10%;
+    display: flex;
+    border-top: 4px solid rgb(236, 236, 236);
+}
+.filter-body-left,
+.filter-body-right{
+    width: 50%;
+}
+.filter-body-left{
+    border-right: 2px solid rgb(236, 236, 236);
+}
+.filter-body .filter-row{
+    padding: 0.5rem 0.8rem;
+    border-bottom: 4px solid rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter-body .filter-row .row-left{
+    width: 10%;
+}
+.filter-body .filter-row .row-left img{
+    width: 100%;
+}
+.filter-body .filter-row .row-center{
+    width: 85%;
+}
+.filter-body .filter-row .row-right{
+    width: 5%;
+    text-align: center;
+}
+/* Filter Body End */
