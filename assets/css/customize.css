@@ -46,7 +46,7 @@
     border-right: 2px solid rgb(236, 236, 236);
 }
 .filter-body .filter-row{
-    padding: 0.5rem 0.8rem;
+    padding: 0.7rem 0.8rem;
     border-bottom: 4px solid rgb(236, 236, 236);
     display: flex;
     justify-content: space-between;
@@ -59,10 +59,24 @@
     width: 100%;
 }
 .filter-body .filter-row .row-center{
-    width: 85%;
+    width: 84%;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.filter-body .filter-row .row-center .input-box{
+    width: 10%;
+}
+.filter-body .filter-row .row-center .input-box img{
+    width: 100%;
 }
 .filter-body .filter-row .row-right{
-    width: 5%;
+    width: 6%;
     text-align: center;
+}
+.filter-body .filter-row .row-right i{
+    font-size: calc(1.2rem + 0.5vw);
+    cursor: pointer;
+    padding: 0.3rem 0.6rem;
 }
 /* Filter Body End */
