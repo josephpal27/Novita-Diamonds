@@ -1447,5 +1447,7 @@ footer .copy-right{
 }
 footer .copy-right p{
     margin: 0;
+    margin-top: 0.8rem;
+    font-size: calc(0.5rem + 0.5vw);
 }
 /* Footer End */
