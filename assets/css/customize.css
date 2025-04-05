@@ -10,7 +10,7 @@
 
 /* Filter Head Start */
 .filter-head{
-    padding: 0 10%;
+    padding: 0 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +34,7 @@
 
 /* Filter Body Start */
 .filter-body{
-    margin: 1rem 10%;
+    margin: 1rem 5%;
     display: flex;
     border-top: 4px solid rgb(236, 236, 236);
 }
@@ -46,30 +46,87 @@
     border-right: 2px solid rgb(236, 236, 236);
 }
 .filter-body .filter-row{
-    padding: 0.7rem 0.8rem;
+    padding: 0.7rem 0.8rem 0.5rem 0.8rem;
     border-bottom: 4px solid rgb(236, 236, 236);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
+    background-color: #fff;
 }
 .filter-body .filter-row .row-left{
     width: 10%;
+    margin-right: 1rem;
 }
 .filter-body .filter-row .row-left img{
     width: 100%;
 }
+.filter-body .filter-row .row-left p{
+    margin: 0;
+    font-size: calc(0.5rem + 0.5vw);
+    text-align: center;
+    margin-top: 0.2rem;
+}
 .filter-body .filter-row .row-center{
     width: 84%;
+    padding-top: 0.2rem;
+}
+.filter-body .filter-row .row-center .row-top{
     display: flex;
-    gap: 0.5rem;
+    gap: 0.7rem;
+    flex-wrap: nowrap;
+    margin-bottom: 0.7rem;
+}
+.filter-body .filter-row .row-center .row-bottom{
+    display: none;
+    gap: 0.7rem;
     flex-wrap: wrap;
+    transition: all 0.2s ease-in-out;
+}
+.filter-body .filter-row .row-center .row-bottom.show{
+    display: flex;
 }
 .filter-body .filter-row .row-center .input-box{
-    width: 10%;
+    width: 50px;
+    height: 50px;
+    background-color: #fff; 
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.433) 1.95px 1.95px 2.6px;
+    margin-bottom: 1rem;
+}
+.filter-body .filter-row .row-center .input-box label{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filter-body .filter-row .row-center .input-box label p{
+    font-size: calc(0.2rem + 0.5vw);
+    margin: 0;
+    margin-top: 0.3rem;
+}
+/* Hide actual checkbox */
+.filter-body .filter-row .row-center .input-box .hidden-checkbox{
+    display: none;
+}
+/* Selected Effect */
+.filter-body .filter-row .row-center .input-box:has(.hidden-checkbox:checked) {
+    background-color: #ffa8a8;
 }
 .filter-body .filter-row .row-center .input-box img{
     width: 100%;
+    padding: 0.5rem;
 }
+.filter-body #filter-row-1 .input-box img{
+    filter: grayscale(100%);
+}
+
+/* Toggle Row Open Close */
+/* .filter-body .filter-row.open{
+    position: absolute;
+    width: 45%;
+} */
+
+
 .filter-body .filter-row .row-right{
     width: 6%;
     text-align: center;
@@ -78,5 +135,7 @@
     font-size: calc(1.2rem + 0.5vw);
     cursor: pointer;
     padding: 0.3rem 0.6rem;
+    margin-left: 0.2rem;
+    margin-top: 0.7rem;
 }
 /* Filter Body End */
