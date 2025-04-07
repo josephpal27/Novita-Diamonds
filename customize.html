@@ -512,36 +512,494 @@
                 </div>
             </div>
             <!-- Row 2 -->
-            <div class="filter-row">
+            <div class="filter-row" id="filter-row-2">
                 <div class="row-left">
                     <img src="assets/images/icons/ct.png" alt="icons">
                     <p>Carat</p>
                 </div>
                 <div class="row-center">
-                    
+                    <div class="carat-min">
+                        <div class="carat-min-top">
+                            <span>Min</span>
+                        </div>
+                        <div class="carat-min-bottom">
+                            <input type="number" name="min_carat" id="min_carat" min="0" step="0.01">
+                            <span>ct</span>
+                        </div>
+                    </div>
+                    <div class="carat-to">
+                        <span>to</span>
+                    </div>
+                    <div class="carat-max">
+                        <div class="carat-max-top">
+                            <span>Max</span>
+                        </div>
+                        <div class="carat-max-bottom">
+                            <input type="number" name="max_carat" id="max_carat" min="0" step="0.01">
+                            <span>ct</span>
+                        </div>
+                    </div>
                 </div>
                 <!-- <div class="row-right">
                     <i class="fa-solid fa-caret-down"></i>
                 </div> -->
             </div>
             <!-- Row 3 -->
-            <div class="filter-row"></div>
+            <div class="filter-row" id="filter-row-3">
+                <div class="row-left">
+                    <img src="assets/images/icons/clarity.png" alt="icons">
+                    <p>Clarity</p>
+                </div>
+                <div class="row-center">
+                    <!-- Top -->
+                    <div class="row-top">
+                        <div class="input-box">
+                            <input type="checkbox" id="fl" name="clarity[]" value="fl" class="hidden-checkbox">
+                            <label for="fl" class="checkbox-label">FL</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="if" name="clarity[]" value="if" class="hidden-checkbox">
+                            <label for="if" class="checkbox-label">IF</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="vvs1" name="clarity[]" value="vvs1" class="hidden-checkbox">
+                            <label for="vvs1" class="checkbox-label">VVS1</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="vvs2" name="clarity[]" value="vvs2" class="hidden-checkbox">
+                            <label for="vvs2" class="checkbox-label">VVS2</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="vs1" name="clarity[]" value="vs1" class="hidden-checkbox">
+                            <label for="vs1" class="checkbox-label">VS1</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="vs2" name="clarity[]" value="vs2" class="hidden-checkbox">
+                            <label for="vs2" class="checkbox-label">VS2</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="si1" name="clarity[]" value="si1" class="hidden-checkbox">
+                            <label for="si1" class="checkbox-label">SI1</label>
+                        </div>
+                    </div>
+                    <!-- Bottom -->
+                    <div class="row-bottom">
+                        <div class="input-box">
+                            <input type="checkbox" id="si2" name="clarity[]" value="si2" class="hidden-checkbox">
+                            <label for="si2" class="checkbox-label">SI2</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="i1" name="clarity[]" value="i1" class="hidden-checkbox">
+                            <label for="i1" class="checkbox-label">I1</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="i2" name="clarity[]" value="i2" class="hidden-checkbox">
+                            <label for="i2" class="checkbox-label">I2</label>
+                        </div>
+                    </div> 
+                </div>
+                <div class="row-right">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
             <!-- Row 4 -->
-            <div class="filter-row"></div>
+            <div class="filter-row" id="filter-row-4">
+                <div class="row-left">
+                    <img src="assets/images/icons/color.png" alt="icons">
+                    <p>Color</p>
+                </div>
+                <div class="row-center">
+                    <!-- Top -->
+                    <div class="row-top">
+                        <div class="input-box">
+                            <input type="checkbox" id="d" name="color[]" value="d" class="hidden-checkbox">
+                            <label for="d" class="checkbox-label">D</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="e" name="color[]" value="e" class="hidden-checkbox">
+                            <label for="e" class="checkbox-label">E</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="f" name="color[]" value="f" class="hidden-checkbox">
+                            <label for="f" class="checkbox-label">F</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="g" name="color[]" value="g" class="hidden-checkbox">
+                            <label for="g" class="checkbox-label">G</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="h" name="color[]" value="h" class="hidden-checkbox">
+                            <label for="h" class="checkbox-label">H</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="i" name="color[]" value="i" class="hidden-checkbox">
+                            <label for="i" class="checkbox-label">I</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="j" name="color[]" value="j" class="hidden-checkbox">
+                            <label for="j" class="checkbox-label">J</label>
+                        </div>
+                    </div>
+                    <!-- Bottom -->
+                    <div class="row-bottom">
+                        <div class="input-box">
+                            <input type="checkbox" id="k" name="color[]" value="k" class="hidden-checkbox">
+                            <label for="k" class="checkbox-label">K</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="l" name="color[]" value="l" class="hidden-checkbox">
+                            <label for="l" class="checkbox-label">L</label>
+                        </div>
+                    </div> 
+                </div>
+                <div class="row-right">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
         </div>
         <div class="filter-body-right">
             <!-- Row 5 -->
-            <div class="filter-row"></div>
+            <div class="filter-row" id="filter-row-5">
+                <div class="row-left">
+                    <img src="assets/images/icons/fancy.png" alt="icons">
+                    <p>Fancy</p>
+                </div>
+                <div class="row-center">
+                    <!-- Top -->
+                    <div class="row-top">
+                        <div class="input-box">
+                            <input type="checkbox" id="yellow" name="fancy[]" value="yellow" class="hidden-checkbox">
+                            <label for="yellow" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-yellow.png" alt="yellow">
+                                <p>Yellow</p>
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="orange" name="fancy[]" value="orange" class="hidden-checkbox">
+                            <label for="orange" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-orange.png" alt="orange">
+                                <p>Orange</p>
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="pink" name="fancy[]" value="pink" class="hidden-checkbox">
+                            <label for="pink" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-pink.png" alt="pink">
+                                <p>Pink</p>
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="blue" name="fancy[]" value="blue" class="hidden-checkbox">
+                            <label for="blue" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-blue.png" alt="blue">
+                                <p>Blue</p>
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="green" name="fancy[]" value="green" class="hidden-checkbox">
+                            <label for="green" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-green.png" alt="green">
+                                <p>Green</p>
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="brown" name="fancy[]" value="brown" class="hidden-checkbox">
+                            <label for="brown" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-brown.png" alt="brown">
+                                <p>Brown</p>
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="red" name="fancy[]" value="red" class="hidden-checkbox">
+                            <label for="red" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-red.png" alt="red">
+                                <p>Red</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Bottom -->
+                    <div class="row-bottom">
+                        <div class="input-box">
+                            <input type="checkbox" id="violet" name="fancy[]" value="violet" class="hidden-checkbox">
+                            <label for="violet" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-violet.png" alt="violet">
+                                <p>Violet</p>
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="purple" name="fancy[]" value="purple" class="hidden-checkbox">
+                            <label for="purple" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-purple.png" alt="purple">
+                                <p>Purple</p>
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="gray" name="fancy[]" value="gray" class="hidden-checkbox">
+                            <label for="gray" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-gray.png" alt="gray">
+                                <p>Gray</p>
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="olive" name="fancy[]" value="olive" class="hidden-checkbox">
+                            <label for="olive" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-olive.png" alt="olive">
+                                <p>Olive</p>
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="black" name="fancy[]" value="black" class="hidden-checkbox">
+                            <label for="black" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-black.png" alt="black">
+                                <p>Black</p>
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="other" name="fancy[]" value="other" class="hidden-checkbox">
+                            <label for="other" class="checkbox-label">
+                                <img src="assets/images/diamond-icons/fancy-other.png" alt="other">
+                                <p>Other</p>
+                            </label>
+                        </div>
+                        <div class="input-box rectangle-input-box">
+                            <input type="checkbox" id="fancy_deep" name="fancy[]" value="fancy_deep" class="hidden-checkbox">
+                            <label for="fancy_deep" class="checkbox-label">Fancy Deep</label>
+                        </div>
+                        <div class="input-box rectangle-input-box">
+                            <input type="checkbox" id="fancy_vivid" name="fancy[]" value="fancy_vivid" class="hidden-checkbox">
+                            <label for="fancy_vivid" class="checkbox-label">Fancy Vivid</label>
+                        </div>
+                        <div class="input-box rectangle-input-box">
+                            <input type="checkbox" id="fancy_intense" name="fancy[]" value="fancy_intense" class="hidden-checkbox">
+                            <label for="fancy_intense" class="checkbox-label">Fancy Intense</label>
+                        </div>
+                        <div class="input-box rectangle-input-box">
+                            <input type="checkbox" id="fancy" name="fancy[]" value="fancy" class="hidden-checkbox">
+                            <label for="fancy" class="checkbox-label">Fancy</label>
+                        </div>
+                        <div class="input-box rectangle-input-box">
+                            <input type="checkbox" id="light" name="fancy[]" value="light" class="hidden-checkbox">
+                            <label for="light" class="checkbox-label">Light</label>
+                        </div>
+                        <div class="input-box rectangle-input-box">
+                            <input type="checkbox" id="very_light" name="fancy[]" value="very_light" class="hidden-checkbox">
+                            <label for="very_light" class="checkbox-label">Very Light</label>
+                        </div>
+                        <div class="input-box rectangle-input-box">
+                            <input type="checkbox" id="faint" name="fancy[]" value="faint" class="hidden-checkbox">
+                            <label for="faint" class="checkbox-label">Faint</label>
+                        </div>
+                        <div class="input-box rectangle-input-box">
+                            <input type="checkbox" id="fancy_dark" name="fancy[]" value="fancy_dark" class="hidden-checkbox">
+                            <label for="fancy_dark" class="checkbox-label">Fancy Dark</label>
+                        </div>
+                    </div> 
+                </div>
+                <div class="row-right">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
             <!-- Row 6 -->
-            <div class="filter-row"></div>
+            <div class="filter-row" id="filter-row-6">
+                <div class="row-left">
+                    <img src="assets/images/icons/cut.png" alt="icons">
+                    <p>Cut</p>
+                </div>
+                <div class="row-center">
+                    <!-- Top -->
+                    <div class="row-top">
+                        <div class="cut-box">
+                            <div class="cut-box-top">
+                                <span>Cut Grade</span>
+                            </div>
+                            <div class="cut-box-bottom">
+                                <div class="input-box rectangle-input-box">
+                                    <input type="checkbox" id="grade_ideal" name="cut[]" value="grade_ideal" class="hidden-checkbox">
+                                    <label for="grade_ideal" class="checkbox-label">Ideal</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cut-box">
+                            <div class="cut-box-top">
+                                <span>Polish</span>
+                            </div>
+                            <div class="cut-box-bottom">
+                                <div class="input-box rectangle-input-box">
+                                    <input type="checkbox" id="polish_ideal" name="cut[]" value="polish_ideal" class="hidden-checkbox">
+                                    <label for="polish_ideal" class="checkbox-label">Ideal</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cut-box">
+                            <div class="cut-box-top">
+                                <span>Symmetry</span>
+                            </div>
+                            <div class="cut-box-bottom">
+                                <div class="input-box rectangle-input-box">
+                                    <input type="checkbox" id="symmetry_ideal" name="cut[]" value="symmetry_ideal" class="hidden-checkbox">
+                                    <label for="symmetry_ideal" class="checkbox-label">Ideal</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bottom -->
+                    <div class="row-bottom">
+                        <div class="cut-box">
+                            <div class="cut-box-bottom">
+                                <div class="input-box rectangle-input-box">
+                                    <input type="checkbox" id="grade_ex" name="cut[]" value="grade_ex" class="hidden-checkbox">
+                                    <label for="grade_ex" class="checkbox-label">Excellent</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cut-box">
+                            <div class="cut-box-bottom">
+                                <div class="input-box rectangle-input-box">
+                                    <input type="checkbox" id="polish_ex" name="cut[]" value="polish_ex" class="hidden-checkbox">
+                                    <label for="polish_ex" class="checkbox-label">Excellent</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cut-box">
+                            <div class="cut-box-bottom">
+                                <div class="input-box rectangle-input-box">
+                                    <input type="checkbox" id="symmetry_ex" name="cut[]" value="symmetry_ex" class="hidden-checkbox">
+                                    <label for="symmetry_ex" class="checkbox-label">Excellent</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-right">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
             <!-- Row 7 -->
-            <div class="filter-row"></div>
+            <div class="filter-row" id="filter-row-7">
+                <div class="row-left">
+                    <img src="assets/images/icons/lab.png" alt="icons">
+                    <p>Lab</p>
+                </div>
+                <div class="row-center">
+                    <!-- Top -->
+                    <div class="row-top">
+                        <div class="input-box">
+                            <input type="checkbox" id="igi" name="lab[]" value="igi" class="hidden-checkbox">
+                            <label for="igi" class="checkbox-label">IGI</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="gia" name="lab[]" value="gia" class="hidden-checkbox">
+                            <label for="gia" class="checkbox-label">GIA</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" id="none" name="lab[]" value="none" class="hidden-checkbox">
+                            <label for="none" class="checkbox-label">None</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row-right">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div> -->
+            </div>
         </div>
     </section> 
     <!-- Filter Body End -->
 
+    <div class="submit-btn">
+        <button type="submit">Search</button>
+    </div>
+
     </form>
     <!-- Filter Form End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <!-- Newsletter -->
+        <div class="newsletter">
+            <div class="newsletter-banner">
+                
+            </div>
+            <div class="newsletter-content">
+                <div class="content-top">
+                    <div class="top-left">
+                        <h1>Newsletter</h1>
+                    </div>
+                    <div class="top-right">
+                        <p>Subscribe now and be the first to know about</p>
+                        <p><b>promotions and new products!</b></p>
+                    </div>
+                </div>
+                <div class="content-bottom">
+                    <form action="">
+                        <input type="email" placeholder="ENTER YOUR EMAIL ADDRESS" required>
+                        <button type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Content -->
+        <div class="footer-content">
+            <div class="foot-box">
+                <h2><a href="">Customer Care</a></h2>
+                <ul>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Track Your Order</a></li>
+                    <li><a href="">Free Shipping</a></li>
+                    <li><a href="">Free 30 Days Returns</a></li>
+                    <li><a href="">Free Resizing</a></li>
+                    <li><a href="">Free Lifetime Warranty & Cleaning</a></li>
+                    <li><a href="">Deposit Policy</a></li>
+                    <li><a href="">How To Shop</a></li>
+                    <li><a href="">Sparkling Brush</a></li>
+                    <li><a href="">Purchase an E-Gift Card</a></li>
+                    <li><a href="">E-Gift Card Balance</a></li>
+                </ul>
+            </div>
+            <div class="foot-box">
+                <h2><a href="">About Us</a></h2>
+                <ul>
+                    <li><a href="">Why Lab Grown Diamonds</a></li>
+                    <li><a href="">Our Story</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Aus Vs Overseas Must Read</a></li>
+                </ul>    
+            </div>
+            <div class="foot-box" id="foot-box-3">
+                <h2><a href="">Contact Us</a></h2>
+                <ul>
+                    <li><a href="">Contact</a></li>
+                    <li><a href=""><img src="assets/images/icons/phone.svg" alt="icon" id="phone-icn">+61 1800 503 082</a></li>
+                    <li><a href=""><img src="assets/images/icons/whatsapp.svg" alt="icon">+61 406 471 283</a></li>
+                    <li><a href="">Email Us</a></li>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Book Appointment</a></li>
+                </ul> 
+                <div class="icon-row">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="foot-box">
+                <h2><a href="">Branches</a></h2>
+                <ul>
+                    <li><a href="">Australia</a></li>
+                    <li><a href="">UK</a></li>
+                    <li><a href="">Germany</a></li>
+                    <li><a href="">Singapore</a></li>
+                    <li><a href="">New Zealand</a></li>
+                    <li><a href="">Spain</a></li>
+                    <li><a href="">Malaysia</a></li>
+                    <li><a href="">Hong Kong</a></li>
+                </ul> 
+            </div>
+        </div> 
+        <div class="copy-right">
+            <p>Copyright © 2025 | All Rights Reserved</p>
+        </div>
+    </footer> 
+    <!-- Footer End -->
 
     <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
 

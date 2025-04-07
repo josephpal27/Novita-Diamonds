@@ -52,6 +52,10 @@
     justify-content: space-between;
     /* align-items: center; */
     background-color: #fff;
+    height: 100px;
+}
+.filter-body .filter-row.active{
+    height: auto;
 }
 .filter-body .filter-row .row-left{
     width: 10%;
@@ -126,7 +130,6 @@
     width: 45%;
 } */
 
-
 .filter-body .filter-row .row-right{
     width: 6%;
     text-align: center;
@@ -138,4 +141,136 @@
     margin-left: 0.2rem;
     margin-top: 0.7rem;
 }
+
+#filter-row-2 .row-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: -1rem;
+}
+#filter-row-2 .row-center .carat-min,
+#filter-row-2 .row-center .carat-max{
+    width: 42.5%;
+}
+#filter-row-2 .row-center .carat-to{
+    width: 15%;
+}
+#filter-row-2 .carat-min-top span,
+#filter-row-2 .carat-max-top span{
+    color: #000;
+    font-size: calc(0.55rem + 0.5vw);
+    margin-left: -1.2rem;
+}   
+#filter-row-2 .carat-min-bottom,
+#filter-row-2 .carat-max-bottom{
+    display: flex;
+    align-items: end;
+    gap: 5px;
+}   
+#filter-row-2 .carat-min-bottom input,
+#filter-row-2 .carat-max-bottom input{
+    width: 85%;
+}   
+#filter-row-2 .carat-min-bottom span,
+#filter-row-2 .carat-max-bottom span{
+    color: #000;
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 600;
+}   
+#filter-row-2 .row-center input{
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    padding-top: 0.8rem;
+    font-weight: 600;
+    font-size: calc(0.8rem + 0.5vw);
+}   
+#filter-row-2 .row-center input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}   
+  
+#filter-row-3 .input-box,
+#filter-row-4 .input-box,
+#filter-row-7 .input-box{
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}  
+#filter-row-3 .input-box label,
+#filter-row-4 .input-box label,
+#filter-row-7 .input-box label{
+    font-size: calc(0.55rem + 0.5vw);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}   
+
+#filter-row-5 .input-box img{
+    width: 80%;
+}
+#filter-row-5 .rectangle-input-box{
+    width: 90px;
+    height: 40px;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.701) 1.95px 1.95px 2.6px;
+    margin-bottom: 0.2rem;
+}
+.rectangle-input-box label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(0.45rem + 0.5vw);
+}
+
+#filter-row-6 .row-center{
+    display: flex;
+    flex-direction: column;
+}
+#filter-row-6 .row-center .row-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.3rem;
+}
+#filter-row-6 .row-center .row-bottom{
+    justify-content: space-between;
+}
+#filter-row-6 .row-center .cut-box{
+    width: 31%;
+    text-align: center;
+}
+#filter-row-6 .row-center .row-top .cut-box .cut-box-top{
+    margin-bottom: 0.3rem;
+}
+#filter-row-6 .row-center .row-top .cut-box .cut-box-top span{
+    font-size: calc(0.45rem + 0.5vw);
+}
+#filter-row-6 .rectangle-input-box{
+    width: 100%;
+    height: 35px;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.701) 1.95px 1.95px 2.6px;
+    margin-bottom: 0.2rem;
+}
 /* Filter Body End */
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+}
+.submit-btn button{
+    margin-top: 0.5rem;
+    padding: 0.4rem 2rem;
+    font-size: calc(0.6rem + 0.5vw);
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
