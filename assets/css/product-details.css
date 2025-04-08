@@ -1,0 +1,65 @@
+/* Product Details Start */
+.product-details{
+    margin: 2rem 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.product-details .product-details-left{
+    width: 44%;
+}
+.product-details .product-details-left img{
+    width: 100%;
+}
+.product-details .product-details-right{
+    width: 52%;
+}
+.product-details .product-details-right .product-name h2{
+    margin: 0;
+    font-size: calc(1.3rem + 0.5vw);
+    font-weight: 700;
+    color: #000;
+    margin-top: -0.5rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1.5px solid #cfcfcf;
+}
+.product-details .product-details-right .product-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+    border-bottom: 1.5px solid #cfcfcf;
+}
+.product-details .product-details-right .product-price h2{
+    margin: 0;
+    font-size: calc(1.3rem + 0.5vw);
+    font-weight: 700;
+    color: #000;
+}
+.product-details .product-details-right .product-price i{
+    font-size: calc(1.2rem + 0.5vw);
+    cursor: pointer;
+}
+.product-details .product-details-right .diamond-details{
+    margin-top: 0.8rem;
+}
+.product-details .product-details-right .diamond-details h3{
+    margin: 0;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+.product-details .product-details-right .diamond-details .diamond-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+.product-details .product-details-right .diamond-details .diamond-row .row-content{
+    width: 24%;
+}
+.product-details .product-details-right .diamond-details .diamond-row p{
+    margin: 0;
+    color: #000;
+}
+/* Product Details End */
