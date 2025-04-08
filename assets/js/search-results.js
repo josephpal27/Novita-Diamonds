@@ -1,3 +1,5 @@
+// Functionality For Sort Menu Toggle
+
 let sortBtn = document.querySelector('#sort-btn');
 let sortMenu = document.querySelector('.sort-menu');
 let closeBtn = document.querySelector('.sort-menu .sort-menu-head .fa-xmark');
