@@ -6,6 +6,26 @@
     text-align: center;
     font-size: calc(0.7rem + 1vw);
 }
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .customize-head{
+        padding: 2.2rem 5%;
+    }
+    .customize-head h5{
+        font-size: calc(0.8rem + 1vw);
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .customize-head{
+        padding: 2.5rem 5%;
+    }
+    .customize-head h5{
+        font-size: calc(0.9rem + 1vw);
+    }
+}
 /* Customize Head End */
 
 /* Filter Head Start */
@@ -29,6 +49,34 @@
     background-color: #000;
     color: #fff;
     margin-left: 0.5rem;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .filter-head h4{
+        font-size: calc(1.1rem + 1vw);
+    }
+    .filter-head button{
+        font-size: calc(0.6rem + 0.5vw);
+        padding: 0.45rem 1.3rem;
+    }
+    .filter-head button:last-child{
+        margin-left: 0.7rem;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .filter-head h4{
+        font-size: calc(1.2rem + 1vw);
+    }
+    .filter-head button{
+        font-size: calc(0.65rem + 0.5vw);
+        padding: 0.5rem 1.3rem;
+    }
+    .filter-head button:last-child{
+        margin-left: 0.8rem;
+    }
 }
 /* Filter Head End */
 
@@ -104,9 +152,11 @@
     align-items: center;
 }
 .filter-body .filter-row .row-center .input-box label p{
-    font-size: calc(0.2rem + 0.5vw);
+    font-size: calc(0.25rem + 0.5vw);
     margin: 0;
     margin-top: 0.3rem;
+    text-align: center;
+    white-space: nowrap;
 }
 /* Hide actual checkbox */
 .filter-body .filter-row .row-center .input-box .hidden-checkbox{
@@ -277,4 +327,199 @@
     color: #fff;
     border: none;
     border-radius: 20px;
+}
+
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .filter-body{
+        margin: 1.2rem 5%;
+        border-top: 4.5px solid rgb(236, 236, 236);
+    }
+    .filter-body-left{
+        border-right: 2.5px solid rgb(236, 236, 236);
+    }
+    .filter-body .filter-row{
+        padding: 1rem 0.8rem 0.5rem 0.8rem;
+        border-bottom: 4.5px solid rgb(236, 236, 236);
+        height: 115px;
+    }
+    .filter-body .filter-row .row-left p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 0.25rem;
+    }
+    .filter-body .filter-row .row-center .row-top{
+        gap: 1rem;
+        margin-bottom: 0.7rem;
+    }
+    .filter-body .filter-row .row-center .row-bottom{
+        gap: 1rem;
+    }
+    .filter-body .filter-row .row-center .input-box{
+        width: 55px;
+        height: 55px;
+        margin-bottom: 1.4rem;
+    }
+    .filter-body .filter-row .row-center .input-box label p{
+        font-size: calc(0.35rem + 0.5vw);
+        margin-top: 0.38rem;
+    }
+    .filter-body .filter-row .row-right i{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-left: 0.3rem;
+        margin-top: 0.9rem;
+    }
+
+    #filter-row-2 .carat-min-top span,
+    #filter-row-2 .carat-max-top span{
+        font-size: calc(0.6rem + 0.5vw);
+    }   
+    #filter-row-2 .carat-min-bottom,
+    #filter-row-2 .carat-max-bottom{
+        gap: 7px;
+    }      
+    #filter-row-2 .carat-min-bottom span,
+    #filter-row-2 .carat-max-bottom span{
+        font-size: calc(1.2rem + 0.5vw);
+    }   
+    #filter-row-2 .row-center input{
+        border-bottom: 2.5px solid #000;
+        padding-top: 0.8rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }  
+
+    #filter-row-3 .input-box label,
+    #filter-row-4 .input-box label,
+    #filter-row-7 .input-box label{
+        font-size: calc(0.6rem + 0.5vw);
+    }  
+
+    #filter-row-5 .rectangle-input-box{
+        width: 100px;
+        height: 40px;
+    }
+    .rectangle-input-box label{
+        font-size: calc(0.5rem + 0.5vw);
+    }
+
+    #filter-row-6 .row-center .row-top{
+        margin-top: -0.2rem;
+    }
+    #filter-row-6 .row-center .row-top .cut-box .cut-box-top{
+        margin-bottom: 0.6rem;
+    }
+    #filter-row-6 .row-center .row-top .cut-box .cut-box-top span{
+        font-size: calc(0.5rem + 0.5vw);
+    }
+    #filter-row-6 .rectangle-input-box{
+        height: 40px;
+    }
+
+    #filter-row-7{
+        padding: 1rem 0.8rem 0.4rem 0.8rem;
+    }
+
+    .submit-btn button{
+        margin-top: 0.7rem;
+        padding: 0.45rem 2.3rem;
+        font-size: calc(0.7rem + 0.5vw);
+        border-radius: 28px;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .filter-body{
+        margin: 1.3rem 5%;
+        border-top: 5px solid rgb(236, 236, 236);
+    }
+    .filter-body-left{
+        border-right: 3px solid rgb(236, 236, 236);
+    }
+    .filter-body .filter-row{
+        padding: 1rem 0.8rem 0.5rem 0.8rem;
+        border-bottom: 5px solid rgb(236, 236, 236);
+        height: 127px;
+    }
+    .filter-body .filter-row .row-left p{
+        font-size: calc(0.65rem + 0.5vw);
+        margin-top: 0.3rem;
+    }
+    .filter-body .filter-row .row-center .row-top{
+        gap: 1.1rem;
+        margin-bottom: 0.7rem;
+    }
+    .filter-body .filter-row .row-center .row-bottom{
+        gap: 1.1rem;
+    }
+    .filter-body .filter-row .row-center .input-box{
+        width: 60.5px;
+        height: 60.5px;
+        margin-bottom: 1.5rem;
+    }
+    .filter-body .filter-row .row-center .input-box label p{
+        font-size: calc(0.38rem + 0.5vw);
+        margin-top: 0.38rem;
+    }
+    .filter-body .filter-row .row-right i{
+        font-size: calc(1.5rem + 0.5vw);
+        margin-left: 0.3rem;
+        margin-top: 0.9rem;
+    }
+
+    #filter-row-2 .carat-min-top span,
+    #filter-row-2 .carat-max-top span{
+        font-size: calc(0.65rem + 0.5vw);
+    }   
+    #filter-row-2 .carat-min-bottom,
+    #filter-row-2 .carat-max-bottom{
+        gap: 7px;
+    }      
+    #filter-row-2 .carat-min-bottom span,
+    #filter-row-2 .carat-max-bottom span{
+        font-size: calc(1.3rem + 0.5vw);
+    }   
+    #filter-row-2 .row-center input{
+        border-bottom: 2.5px solid #000;
+        padding-top: 0.8rem;
+        font-size: calc(1rem + 0.5vw);
+    }  
+
+    #filter-row-3 .input-box label,
+    #filter-row-4 .input-box label,
+    #filter-row-7 .input-box label{
+        font-size: calc(0.65rem + 0.5vw);
+    }  
+
+    #filter-row-5 .rectangle-input-box{
+        width: 120px;
+        height: 40px;
+    }
+    .rectangle-input-box label{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+
+    #filter-row-6 .row-center .row-top{
+        margin-top: -0.2rem;
+    }
+    #filter-row-6 .row-center .row-top .cut-box .cut-box-top{
+        margin-bottom: 0.8rem;
+    }
+    #filter-row-6 .row-center .row-top .cut-box .cut-box-top span{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+    #filter-row-6 .rectangle-input-box{
+        height: 45px;
+    }
+
+    #filter-row-7{
+        padding: 1rem 0.8rem 0.4rem 0.8rem;
+    }
+
+    .submit-btn button{
+        margin-top: 0.8rem;
+        padding: 0.48rem 2.3rem;
+        font-size: calc(0.75rem + 0.5vw);
+        border-radius: 28px;
+    }
 }
