@@ -1,6 +1,6 @@
 /* Product Details Start */
 .product-details{
-    margin: 2rem 10%;
+    margin: 2rem 10% 4rem 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -38,9 +38,15 @@
 .product-details .product-details-right .product-price i{
     font-size: calc(1.2rem + 0.5vw);
     cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+.product-details .product-details-right .product-price i:hover{
+    color: #f5bbba;
 }
 .product-details .product-details-right .diamond-details{
     margin-top: 0.8rem;
+    border-bottom: 1.5px solid #cfcfcf;
+    padding-bottom: 0.3rem;
 }
 .product-details .product-details-right .diamond-details h3{
     margin: 0;
@@ -61,5 +67,36 @@
 .product-details .product-details-right .diamond-details .diamond-row p{
     margin: 0;
     color: #000;
+}
+.product-details .product-details-right .btn-row{
+    /* border-bottom: 1.5px solid #cfcfcf; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.1rem;
+}
+.product-details .product-details-right .btn-row a{
+    width: 49%;
+}
+.product-details .product-details-right .btn-row  button{
+    width: 100%;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 0;
+    font-size: calc(0.6rem + 0.5vw);
+    font-weight: 600;
+    transition: all 0.1s ease-in-out;
+}
+.product-details .product-details-right .btn-row  button:hover{
+    background-color: #f5bbba;
+    border: 2px solid #f5bbba;
+}
+.product-details .product-details-right .btn-row  a:last-child button{
+    background-color: #fff;
+    color: #000;
+}
+.product-details .product-details-right .btn-row  button i{
+    font-size: calc(0.5rem + 0.5vw);
+    margin-right: 5px;
 }
 /* Product Details End */
