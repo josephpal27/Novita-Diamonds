@@ -542,6 +542,16 @@ header i:hover{
     font-size: calc(0.6rem + 0.5vw);
     margin: 0;
 }
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    
+}
 /* Top Text End */
 
 /* Banner Slider Start */
