@@ -1887,6 +1887,38 @@ header i:hover{
 .recently-purchased .product-slider .swiper-button-prev:hover {
     color: #f5bbba;
 }
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .recently-purchased #recently-purchased-sub-head{
+        margin-top: -0.9rem;
+        font-size: calc(0.75rem + 0.5vw);
+    }
+    .recently-purchased .product-slider .swiper-slide h5{
+        font-size: calc(0.7rem + 0.5vw);
+        margin-top: 0.65rem;
+    }
+    .recently-purchased .product-slider .swiper-slide p{
+        font-size: calc(0.5rem + 0.5vw);
+        line-height: 1.25;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .recently-purchased #recently-purchased-sub-head{
+        margin-top: -0.7rem;
+        font-size: calc(0.83rem + 0.5vw);
+    }
+    .recently-purchased .product-slider .swiper-slide h5{
+        font-size: calc(0.77rem + 0.5vw);
+        margin-top: 0.7rem;
+    }
+    .recently-purchased .product-slider .swiper-slide p{
+        font-size: calc(0.55rem + 0.5vw);
+        line-height: 1.3;
+    }
+}
 /* Recently Purchased End */
 
 /* Lab Diamond Start */
@@ -1976,6 +2008,16 @@ header i:hover{
     color: #000;
     margin: 0;
     margin-top: 0.3rem;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    
 }
 /* Lab Diamond End */
 
