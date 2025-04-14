@@ -545,12 +545,46 @@ header i:hover{
 
 /* For 110% in 15 inch screens */
 @media screen and (min-width: 1230px) and (max-width: 1399px){
-    
+    .top-text{
+        padding: 1.3rem 5%;
+    }
+    .top-text h1{
+        font-size: calc(1.7rem + 1vw);
+        text-decoration-thickness: 1.5px;
+        text-underline-offset: 13px;
+    }
+    .top-text .top-text-content{
+        padding: 0.7rem 0;
+    }
+    .top-text .top-text-content .top-text-left button{
+        font-size: calc(0.6rem + 0.5vw);
+        padding: 0.45rem 2rem;
+    }
+    .top-text .top-text-content .top-text-right p{
+        font-size: calc(0.67rem + 0.5vw);
+    }
 }
 
 /* For 100% in 15 inch screens */
 @media screen and (min-width: 1400px) {
-    
+    .top-text{
+        padding: 1.5rem 5%;
+    }
+    .top-text h1{
+        font-size: calc(1.9rem + 1vw);
+        text-decoration-thickness: 1.7px;
+        text-underline-offset: 14px;
+    }
+    .top-text .top-text-content{
+        padding: 0.8rem 0;
+    }
+    .top-text .top-text-content .top-text-left button{
+        font-size: calc(0.67rem + 0.5vw);
+        padding: 0.52rem 2rem;
+    }
+    .top-text .top-text-content .top-text-right p{
+        font-size: calc(0.75rem + 0.5vw);
+    }
 }
 /* Top Text End */
 
@@ -720,6 +754,138 @@ header i:hover{
 .swiper-pagination-bullet-active {
     background-color: #f5bbba;
 }
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .banner-slider .banner-layer .btn-box p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top: 0.3rem;
+    }
+    .banner-slider .banner-layer button{
+        font-size: calc(0.6rem + 0.5vw);
+        border: 1.7px solid #000;
+        padding: 0.55rem 1.9rem;
+    }
+    #banner-layer-1 .btn-box{
+        margin-top: 11rem;
+    }
+    #banner-layer-2 .btn-box{
+        margin-top: 9rem;
+    }
+    #banner-layer-3 .btn-box{
+        margin-top: 8rem;
+        margin-left: 6.5rem;
+    }
+    #banner-layer-4 .btn-box{
+        margin-top: 10rem;
+    }
+    #banner-layer-4 .btn-box button{
+        padding: 0.55rem 3.9rem;
+    }
+    #banner-layer-5 .btn-box h1{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    #banner-layer-5 .btn-box h2{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.3rem;
+    }
+    #banner-layer-5 .btn-box button{
+        margin-top: 0.4rem;
+    }
+    #banner-layer-5 .btn-box .review img{
+        width: 225px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+    top: 55%;
+    width: 35px;
+    height: 35px;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+    font-size: 1.25rem;
+    }
+
+    .swiper-pagination {
+        top: 18px !important;
+        left: 90.2% !important;
+    }
+    .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .banner-slider .banner-layer .btn-box p{
+        font-size: calc(0.54rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
+    .banner-slider .banner-layer button{
+        font-size: calc(0.64rem + 0.5vw);
+        border: 1.9px solid #000;
+        padding: 0.55rem 2.2rem;
+    }
+    #banner-layer-1 .btn-box{
+        margin-top: 13rem;
+        margin-left: 5.5rem;
+    }
+    #banner-layer-2 .btn-box{
+        margin-top: 10rem;
+        margin-left: 5.5rem;
+    }
+    #banner-layer-3 .btn-box{
+        margin-top: 9rem;
+        margin-left: 7rem;
+    }
+    #banner-layer-4 .btn-box{
+        margin-top: 11rem;
+    }
+    #banner-layer-4 .btn-box button{
+        padding: 0.55rem 4.7rem;
+    }
+    #banner-layer-5 .btn-box h1{
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    #banner-layer-5 .btn-box h2{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.4rem;
+    }
+    #banner-layer-5 .btn-box button{
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+    }
+    #banner-layer-5 .btn-box .review img{
+        width: 250px;
+    }
+    #banner-layer-5 .btn-box .review p{
+        top: 1px;
+        right: 11px;
+        font-size: calc(0.45rem + 0.5vw);
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+    top: 54%;
+    width: 40px;
+    height: 40px;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+    font-size: 1.35rem;
+    }
+
+    .swiper-pagination {
+        top: 19px !important;
+        left: 90.5% !important;
+    }
+    .swiper-pagination-bullet {
+        width: 13px;
+        height: 13px;
+    }
+}
 /* Banner Slider End */
 
 /* Virtual Appointment Start */
@@ -744,6 +910,34 @@ header i:hover{
     width: 20px;
     margin-left: 0.3rem;
 }
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .virtual-appointment{
+        padding: 0.45rem 0;
+    }
+    .virtual-appointment a{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+    .virtual-appointment img{
+        width: 22px;
+        margin-left: 0.35rem;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .virtual-appointment{
+        padding: 0.5rem 0;
+    }
+    .virtual-appointment a{
+        font-size: calc(0.58rem + 0.5vw);
+    }
+    .virtual-appointment img{
+        width: 25px;
+        margin-left: 0.4rem;
+    }
+}
 /* Virtual Appointment End */
 
 /* Collection Head Start */
@@ -753,7 +947,6 @@ header i:hover{
 .collection-head h1{
     font-size: calc(1.7rem + 0.5vw);
     text-align: center;
-    /* font-weight: 600; */
     font-style: italic;
 }
 .collection-head .excellent{
@@ -782,6 +975,49 @@ header i:hover{
 }
 .collection-head .excellent #logo img{
     width: 80px;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .collection-head{
+        padding: 2.4rem 0 0 0;
+    }
+    .collection-head h1{
+        font-size: calc(1.9rem + 0.5vw);
+    }
+    .collection-head .excellent{
+        padding: 0.45rem 0;
+    }
+    .collection-head .excellent a{
+        gap: 0.9rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .collection-head{
+        padding: 2.5rem 0 0 0;
+    }
+    .collection-head h1{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .collection-head .excellent{
+        padding: 0.48rem 0;
+    }
+    .collection-head .excellent a{
+        gap: 0.9rem;
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .collection-head .excellent span:nth-child(1) p{
+        font-size: calc(0.75rem + 0.5vw);
+    }
+    .collection-head .excellent img{
+        width: 110px;
+    }
+    .collection-head .excellent #logo img{
+        width: 90px;
+    }   
 }
 /* Collection Head End */
 
@@ -852,6 +1088,60 @@ header i:hover{
 }
 .filter-sort-content .content-box a:hover{
     text-decoration: underline;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .filter-sort{
+        border-bottom: 1.4px solid #d3d3d3;
+    }
+    .filter-sort-head h1{
+        font-size: calc(1.35rem + 0.5vw);
+    }
+    .filter-sort-head i{
+        margin-left: 0.65rem;
+        font-size: calc(0.75rem + 0.5vw);
+    }
+    .filter{
+        padding: 0.75rem 9rem 0.75rem 0;
+        border-right: 1.4px solid #d3d3d3;
+    }
+    .sort{
+        padding: 0.75rem 0 0.75rem 9rem;
+    }
+    .filter-sort-content .content-box{
+        padding: 1.6rem 2.3rem;
+    }
+    .filter-sort-content .content-box a{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .filter-sort{
+        border-bottom: 1.5px solid #d3d3d3;
+    }
+    .filter-sort-head h1{
+        font-size: calc(1.55rem + 0.5vw);
+    }
+    .filter-sort-head i{
+        margin-left: 0.67rem;
+        font-size: calc(0.95rem + 0.5vw);
+    }
+    .filter{
+        padding: 0.92rem 9rem 0.92rem 0;
+        border-right: 1.5px solid #d3d3d3;
+    }
+    .sort{
+        padding: 0.92rem 0 0.92rem 9rem;
+    }
+    .filter-sort-content .content-box{
+        padding: 1.7rem 2.5rem;
+    }
+    .filter-sort-content .content-box a{
+        font-size: calc(0.68rem + 0.5vw);
+    }
 }
 /* Filter Sort End */
 
@@ -1034,6 +1324,184 @@ header i:hover{
     color: #000;
     font-weight: 600;
 }
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .collection .product-count h5{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .collection-row .card{
+        border: 1.7px solid #eee;
+        margin-bottom: 2rem;
+    }
+    .collection-row .card:hover{
+        border: 1.7px solid #f7b5b4;
+    }
+    .collection-row .card .card-img #guaranteed-img{
+        right: 0.55rem;
+        top: 0.5rem;
+        width: 85px;
+    }
+    .collection-row .card .card-img .new{
+        top: 0.5rem;
+        font-size: calc(0.37rem + 0.5vw);
+        padding: 0 9px 0 6px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+    .collection-row .card .card-body{
+        padding: 0.45rem 0;
+    }
+    .collection-row .card .card-body img{
+        width: 107px;
+    }
+    .collection-row .card .card-body #guaranteed-img{
+        width: 75px;
+    }
+    .collection-row .card .card-body h2{
+        font-size: calc(0.75rem + 0.5vw);
+        margin-top: 0.35rem;
+    }
+    .collection-row .card .card-body p{
+        font-size: calc(0.48rem + 0.5vw);
+    }
+    .collection-row .card .card-body h1{
+        font-size: calc(1.2rem + 0.5vw);
+        margin-top: 0.35rem;
+    }
+    .collection-row .card .card-body h1 span{
+        font-size: calc(0.25rem + 0.5vw);
+    }
+    .collection-row .card-body label{
+        font-size: calc(0.35rem + 0.5vw);
+        margin-top: 6px;
+    }
+    .collection-row .explore-card button{
+        font-size: calc(0.5rem + 0.5vw);
+        padding: 0.25rem 0;
+    }
+    .collection-row .explore-card .card-body p{
+        font-size: calc(0.4rem + 0.5vw);
+    }
+    .collection-row .explore-card .card-body p img{
+        width: 10px;
+    }
+    .collection-row .explore-card .card-body p span{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-left: 6px;
+    }
+
+    .ready-to-ship{
+        margin: 0.55rem 0 3rem 0;
+        padding: 0.45rem 0;
+    }
+    .ready-to-ship p{
+        font-size: calc(1rem + 0.5vw);
+    }
+
+    .tab-btn-row{
+        border-bottom: 1.3px solid #d3d3d3;
+    }
+    .tab-btn-row button{
+        font-size: calc(0.67rem + 0.5vw);
+        border-bottom: 3.5px solid transparent;
+    }
+    .tab-btn-row button:hover{
+        border-bottom: 3.5px solid #000;
+    }
+    .tab-btn-row button.active{
+        border-bottom: 3.5px solid #000;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .collection .product-count h5{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .collection-row .card{
+        border: 1.9px solid #eee;
+        margin-bottom: 2rem;
+    }
+    .collection-row .card:hover{
+        border: 1.9px solid #f7b5b4;
+    }
+    .collection-row .card .card-img #guaranteed-img{
+        width: 87px;
+    }
+    .collection-row .card .card-img .new{
+        top: 0.55rem;
+        font-size: calc(0.39rem + 0.5vw);
+        padding: 2px 10px 0 6px;
+        border-top-right-radius: 13px;
+        border-bottom-right-radius: 13px;
+    }
+    .collection-row .card .card-body{
+        padding: 0.5rem 0;
+    }
+    .collection-row .card .card-body img{
+        width: 112px;
+    }
+    .collection-row .card .card-body #guaranteed-img{
+        width: 80px;
+    }
+    .collection-row .card .card-body h2{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.4rem;
+    }
+    .collection-row .card .card-body p{
+        font-size: calc(0.53rem + 0.5vw);
+    }
+    .collection-row .card .card-body h1{
+        font-size: calc(1.7rem + 0.5vw);
+        margin-top: 0.4rem;
+    }
+    .collection-row .card .card-body h1 span{
+        font-size: calc(0.3rem + 0.5vw);
+    }
+    .collection-row .card-body label{
+        font-size: calc(0.4rem + 0.5vw);
+        margin-top: 8px;
+    }
+    .collection-row .explore-card button{
+        font-size: calc(0.55rem + 0.5vw);
+        padding: 0.3rem 0;
+    }
+    .collection-row .explore-card .card-body p{
+        font-size: calc(0.45rem + 0.5vw);
+    }
+    .collection-row .explore-card .card-body p img{
+        width: 13px;
+    }
+    .collection-row .explore-card .card-body p span{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-left: 5px;
+        margin-right: 2px;
+    }
+
+    .ready-to-ship{
+        margin: 0.6rem 0 3.5rem 0;
+        padding: 0.5rem 0;
+    }
+    .ready-to-ship p{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+
+    .tab-btn-row{
+        border-bottom: 1.3px solid #d3d3d3;
+        margin-bottom: 0.5rem;
+    }
+    .tab-btn-row button{
+        font-size: calc(0.73rem + 0.5vw);
+        border-bottom: 3.7px solid transparent;
+    }
+    .tab-btn-row button:hover{
+        border-bottom: 3.7px solid #000;
+    }
+    .tab-btn-row button.active{
+        border-bottom: 3.7px solid #000;
+    }
+}
 /* Collection End */
 
 /* Two Text Head Start */
@@ -1059,6 +1527,36 @@ header i:hover{
     color: #6f6f6f;
     margin-top: 1rem;
     font-weight: 100;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .two-text-head h2{
+        font-size: calc(1.45rem + 0.5vw);
+    }
+    .two-text-head h3{
+        font-size: calc(1.45rem + 0.5vw);
+        margin-top: 2rem;
+    }
+    .two-text-head span{
+        font-size: calc(4.1rem + 0.5vw);
+        margin-top: 1rem;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .two-text-head h2{
+        font-size: calc(1.58rem + 0.5vw);
+    }
+    .two-text-head h3{
+        font-size: calc(1.58rem + 0.5vw);
+        margin-top: 2rem;
+    }
+    .two-text-head span{
+        font-size: calc(4.2rem + 0.5vw);
+        margin-top: 1rem;
+    }
 }
 /* Two Text Head End */
 
@@ -1116,6 +1614,44 @@ header i:hover{
     color: #000;
     background-color: #fff;
 }
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .local-stock-content{
+        padding: 3rem 5% 3.5rem 5%;
+    }
+    .local-stock-content h3{
+        font-size: calc(1.15rem + 0.5vw);
+    }
+    .local-stock-content p{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .local-stock-content button{
+        font-size: calc(0.75rem + 0.5vw);
+        padding: 0.4rem 2rem;
+        border: 1.2px solid #000;
+        margin-top: 0.8rem;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .local-stock-content{
+        padding: 3rem 5% 3.8rem 5%;
+    }
+    .local-stock-content h3{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .local-stock-content p{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .local-stock-content button{
+        font-size: calc(0.8rem + 0.5vw);
+        padding: 0.4rem 2rem;
+        border: 1.4px solid #000;
+        margin-top: 0.9rem;
+    }
+}
 /* Local Stock End */
 
 /* Showrooms Start */
@@ -1138,7 +1674,6 @@ header i:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 3%;
-    /* background-color: red; */
 }
 .showrooms .showroom-left .showroom-box{
     width: 30%;
@@ -1222,6 +1757,75 @@ header i:hover{
 .showrooms .showroom-right .call-expert-row p{
     color: #000;
     font-weight: 600;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .showrooms{
+        padding: 0 5% 1.3rem 5%;
+    }
+    .showrooms .showroom-left .showroom-box h4{
+        font-size: calc(1rem + 0.5vw);
+        border-bottom: 1.1px solid #f5bbba88;
+    }
+    .showrooms .showroom-left .showroom-box h4 i{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-left: 4px;
+    }
+    .showrooms .showroom-left .showroom-body a{
+        font-size: calc(0.6rem + 0.5vw);
+        padding: 0.35rem 1rem;
+        border-bottom: 1.1px solid #b8b8b8;
+    }
+
+    .showrooms .showroom-right h5{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .showrooms .showroom-right button{
+        font-size: calc(0.65rem + 0.5vw);
+        padding: 0.4rem 0;
+        margin-top: 0.55rem;
+    }
+    .showrooms .showroom-right .call-expert-row{
+        gap: 2rem;
+        margin-top: 0.55rem;
+        font-size: calc(0.8rem + 0.5vw);
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .showrooms{
+        padding: 0 5% 1.5rem 5%;
+        margin-top: 0.6rem;
+    }
+    .showrooms .showroom-left .showroom-box h4{
+        font-size: calc(1.05rem + 0.5vw);
+        border-bottom: 1.2px solid #f5bbba88;
+    }
+    .showrooms .showroom-left .showroom-box h4 i{
+        font-size: calc(0.85rem + 0.5vw);
+        margin-left: 5px;
+    }
+    .showrooms .showroom-left .showroom-body a{
+        font-size: calc(0.67rem + 0.5vw);
+        padding: 0.4rem 1rem;
+        border-bottom: 1.2px solid #b8b8b8;
+    }
+
+    .showrooms .showroom-right h5{
+        font-size: calc(1.05rem + 0.5vw);
+    }
+    .showrooms .showroom-right button{
+        font-size: calc(0.7rem + 0.5vw);
+        padding: 0.43rem 0;
+        margin-top: 0.55rem;
+    }
+    .showrooms .showroom-right .call-expert-row{
+        gap: 2.5rem;
+        margin-top: 0.58rem;
+        font-size: calc(0.85rem + 0.5vw);
+    }
 }
 /* Showrooms End */
 
