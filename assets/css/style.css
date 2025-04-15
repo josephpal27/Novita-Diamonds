@@ -2012,12 +2012,67 @@ header i:hover{
 
 /* For 110% in 15 inch screens */
 @media screen and (min-width: 1230px) and (max-width: 1399px){
-    
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card{
+        border: 1.7px solid #eee;
+        margin-bottom: 1.3rem;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card:hover{
+        border: 1.7px solid #f7b5b4;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-img .new{
+        top: 0.8rem;
+        font-size: calc(0.38rem + 0.5vw);
+        padding: 0 10px 0 7px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-img{
+        padding: 1.08rem 0.9rem 0 0.9rem;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body h2{
+        font-size: calc(0.75rem + 0.5vw);
+        margin-top: 0.3rem;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body p{
+        font-size: calc(0.48rem + 0.5vw);
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body h1{
+        font-size: calc(1.2rem + 0.5vw);
+        margin-top: 0.3rem;
+    }
 }
 
 /* For 100% in 15 inch screens */
 @media screen and (min-width: 1400px) {
-    
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card{
+        border: 1.9px solid #eee;
+        margin-bottom: 1.5rem;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card:hover{
+        border: 1.9px solid #f7b5b4;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-img .new{
+        top: 0.9rem;
+        border: 1.7px solid #000;
+        font-size: calc(0.4rem + 0.5vw);
+        padding: 2px 12px 0.5px 7px;
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-img{
+        padding: 1.08rem 0.9rem 0 0.9rem;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body h2{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.35rem;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body p{
+        font-size: calc(0.53rem + 0.5vw);
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body h1{
+        font-size: calc(1.3rem + 0.5vw);
+        margin-top: 0.3rem;
+    }
 }
 /* Lab Diamond End */
 
@@ -2088,6 +2143,46 @@ header i:hover{
 .can-i-see .founder-text p{
     margin: 0;
 }
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .can-i-see p{
+        font-size: calc(0.68rem + 0.5vw);
+    }
+    .can-i-see h4{
+        font-size: calc(1.05rem + 0.5vw);
+        margin-top: 1.2rem;
+    }
+    .can-i-see #summary{
+        font-size: calc(1.35rem + 0.5vw);
+    }
+    .can-i-see .founder-text{
+        margin-bottom: 1.7rem;
+    }
+    .can-i-see .founder-text h5{
+        font-size: calc(0.85rem + 0.5vw);
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .can-i-see p{
+        font-size: calc(0.73rem + 0.5vw);
+    }
+    .can-i-see h4{
+        font-size: calc(1.1rem + 0.5vw);
+        margin-top: 1.4rem;
+    }
+    .can-i-see #summary{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .can-i-see .founder-text{
+        margin-bottom: 1.9rem;
+    }
+    .can-i-see .founder-text h5{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+}
 /* Can I See End */
 
 /* Insta Start */
@@ -2148,6 +2243,49 @@ header i:hover{
     top: -1px;
     left: -10px;
     width: 30px;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .insta{
+        padding: 0 5% 3.3rem 5%;
+    }
+    .insta .two-text-head button{
+        border: 1.5px solid #000;
+        padding: 0.45rem 13rem 0.45rem 1rem;
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .insta .faq{
+        margin-top: 2.2rem;
+        padding: 0.2rem 0;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .insta .faq img{
+        width: 33px;
+    }
+}
+
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .insta{
+        padding: 0 5% 3.5rem 5%;
+    }
+    .insta .two-text-head button{
+        border: 1.7px solid #000;
+        padding: 0.5rem 15rem 0.5rem 1.5rem;
+        font-size: calc(0.78rem + 0.5vw);
+    }
+    .insta .faq{
+        letter-spacing: 2.5px;
+        margin-top: 2.4rem;
+        padding: 0.25rem 0;
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .insta .faq img{
+        top: -2.5px;
+        left: -12px;
+        width: 40px;
+    }
 }
 /* Insta End */
 
