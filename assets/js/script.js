@@ -171,3 +171,11 @@ document.addEventListener('click', () => {
 });
 
 // ----------------------------------------------------------------------------------------
+
+// Functionality For Mobile Header 
+let menuIcon = document.querySelector('.mobile-header-right img');
+let mobileNavbar = document.querySelector('.mobile-nav');
+
+menuIcon.addEventListener('click', () => {
+  mobileNavbar.classList.toggle('active');
+})
