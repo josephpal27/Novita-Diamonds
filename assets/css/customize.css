@@ -26,6 +26,16 @@
         font-size: calc(0.9rem + 1vw);
     }
 }
+
+/* For small sreens */
+@media screen and (max-width: 768px) {
+    .customize-head{
+        padding: 1.5rem 0.7rem;
+    }
+    .customize-head h5{
+        font-size: calc(1rem + 1vw);
+    }
+}
 /* Customize Head End */
 
 /* Filter Head Start */
@@ -78,6 +88,29 @@
         margin-left: 0.8rem;
     }
 }
+
+/* For small sreens */
+@media screen and (max-width: 768px) {
+    .filter-head{
+        padding: 0 0.7rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filter-head h4{
+        font-size: calc(1rem + 1vw);
+    }
+    .filter-head .filter-head-right{
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+    .filter-head button{
+        font-size: calc(0.9rem + 0.5vw);
+        border: 1.7px solid #000;
+        width: 46vw;
+    }
+}
 /* Filter Head End */
 
 /* Filter Body Start */
@@ -98,7 +131,6 @@
     border-bottom: 4px solid rgb(236, 236, 236);
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     background-color: #fff;
     height: 100px;
 }
@@ -173,12 +205,6 @@
 .filter-body #filter-row-1 .input-box img{
     filter: grayscale(100%);
 }
-
-/* Toggle Row Open Close */
-/* .filter-body .filter-row.open{
-    position: absolute;
-    width: 45%;
-} */
 
 .filter-body .filter-row .row-right{
     width: 6%;
@@ -522,4 +548,30 @@
         font-size: calc(0.75rem + 0.5vw);
         border-radius: 28px;
     }
+}
+
+/* For small sreens */
+@media screen and (max-width: 768px) {
+    #filter-form-body{
+        overflow: hidden;
+    }
+    .filter-body{
+        margin: 1rem 0.7rem;
+        flex-direction: column;
+        border-top: 4px solid rgb(236, 236, 236);
+    }
+    .filter-body-left,
+    .filter-body-right{
+        width: 100%;
+    }
+    .filter-body-left{
+        border-right: none;
+    }
+
+    /* .filter-body .filter-row .row-center .row-top{
+        display: flex;
+        gap: 0.7rem;
+        flex-wrap: wrap;
+        margin-bottom: 0.7rem;
+    } */
 }

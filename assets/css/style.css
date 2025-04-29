@@ -2675,4 +2675,11 @@ footer .copy-right p{
         font-size: calc(0.65rem + 0.5vw);
     }
 }
+
+/* For small screens */
+@media screen and (max-width: 768px) {
+    footer{
+        overflow: hidden;
+    }
+}
 /* Footer End */
