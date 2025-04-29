@@ -58,6 +58,22 @@ body {
         font-size: calc(0.55rem + 0.5vw);
     }
 }
+
+/* For small screens */
+@media screen and (max-width: 767px) {
+    .header-slider{
+        padding: 0.3rem 0 0.2rem 0;
+    }
+    .header-slider .swiper-slide{
+        gap: 0.5rem;
+    }
+    .header-slider .swiper-slide p{
+        font-size: calc(0.45rem + 0.5vw);
+    }
+    .header-slider .swiper-slide span{
+        font-size: calc(0.45rem + 0.5vw);
+    }
+}
 /* Header Slider End */
 
 /* Header Start */
