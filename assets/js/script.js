@@ -1,31 +1,31 @@
 
 // Functionality for header currency dropdown menu
-const btn = document.getElementById('currency-btn');
-const dropdown = document.getElementById('currency-dropdown');
+// const btn = document.getElementById('currency-btn');
+// const dropdown = document.getElementById('currency-dropdown');
 
-btn.addEventListener('click', (event) => {
-  // Toggle the dropdown visibility
-  dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
-  event.stopPropagation(); // Prevent the click from propagating to the document
-});
+// btn.addEventListener('click', (event) => {
+//   // Toggle the dropdown visibility
+//   dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+//   event.stopPropagation(); // Prevent the click from propagating to the document
+// });
 
-// Close the dropdown when clicking outside
-document.addEventListener('click', (event) => {
-  if (dropdown.style.display === 'block') {
-    dropdown.style.display = 'none';
-  }
-});
+// // Close the dropdown when clicking outside
+// document.addEventListener('click', (event) => {
+//   if (dropdown.style.display === 'block') {
+//     dropdown.style.display = 'none';
+//   }
+// });
 
-// Handle dropdown item selection
-document.querySelectorAll('.dropdown div').forEach(item => {
-  item.addEventListener('click', (event) => {
-    const flag = item.querySelector('img').outerHTML;
-    const currency = item.textContent.trim();
-    btn.innerHTML = `${flag} ${currency} <span>▼</span>`;
-    dropdown.style.display = 'none';
-    event.stopPropagation(); // Prevent the click from propagating to the document
-  });
-});
+// // Handle dropdown item selection
+// document.querySelectorAll('.dropdown div').forEach(item => {
+//   item.addEventListener('click', (event) => {
+//     const flag = item.querySelector('img').outerHTML;
+//     const currency = item.textContent.trim();
+//     btn.innerHTML = `${flag} ${currency} <span>▼</span>`;
+//     dropdown.style.display = 'none';
+//     event.stopPropagation(); // Prevent the click from propagating to the document
+//   });
+// });
 
 // ----------------------------------------------------------------------------------------
 
