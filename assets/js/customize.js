@@ -34,10 +34,15 @@ document.querySelector('.filter-head-right button[type="button"]').addEventListe
 // Functionality for Filter Row 4 and 5 Checkboxes Deselection Toggle
 let filterRow4CheckBoxes = document.querySelectorAll('.filter-body #filter-row-4 input[type="checkbox"]');
 let filterRow5CheckBoxes = document.querySelectorAll('.filter-body #filter-row-5 input[type="checkbox"]');
+let filterBody4CheckBoxes = document.querySelectorAll('.mobile-filter-body-accordion #filter-body-4 input[type="checkbox"]');
+let filterBody5CheckBoxes = document.querySelectorAll('.mobile-filter-body-accordion #filter-body-5 input[type="checkbox"]');
 
 filterRow4CheckBoxes.forEach(checkbox => {
     checkbox.addEventListener('click', () => {
         filterRow5CheckBoxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
+        filterBody5CheckBoxes.forEach(checkbox => {
             checkbox.checked = false;
         });
     });
@@ -48,7 +53,44 @@ filterRow5CheckBoxes.forEach(checkbox => {
         filterRow4CheckBoxes.forEach(checkbox => {
             checkbox.checked = false;
         });
+        filterBody4CheckBoxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
     });
-});    
+});
+
+filterBody4CheckBoxes.forEach(checkbox => {
+    checkbox.addEventListener('click', () => {
+        filterRow5CheckBoxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
+        filterBody5CheckBoxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
+    });
+});
+
+filterBody5CheckBoxes.forEach(checkbox => {
+    checkbox.addEventListener('click', () => {
+        filterRow4CheckBoxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
+        filterBody4CheckBoxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
+    });
+});
+
+// ----------------------------------------------------------------------------------------
+
+
+// Functionality for Filter Row dropdown icon toggle in MOBILE SCREENS
+let mobDropDownArrow = document.querySelectorAll('.mobile-filter-body-accordion .row-right i');
+mobDropDownArrow.forEach((arrow) => {
+    arrow.addEventListener('click', () => {
+        arrow.classList.toggle('fa-caret-down');
+        arrow.classList.toggle('fa-caret-up');
+    });
+});
 
 // ----------------------------------------------------------------------------------------

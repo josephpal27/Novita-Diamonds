@@ -113,7 +113,7 @@
 }
 /* Filter Head End */
 
-/* Filter Body Start */
+/* Web Filter Body Start */
 .filter-body{
     margin: 1rem 5%;
     display: flex;
@@ -339,7 +339,7 @@
 #filter-row-7{
     padding: 0.7rem 0.8rem 0.35rem 0.8rem;
 }
-/* Filter Body End */
+/* Web Filter Body End */
 
 .submit-btn{
     display: flex;
@@ -552,26 +552,160 @@
 
 /* For small sreens */
 @media screen and (max-width: 768px) {
-    #filter-form-body{
-        overflow: hidden;
+    #web-filter-body{
+        display: none;
     }
-    .filter-body{
-        margin: 1rem 0.7rem;
-        flex-direction: column;
-        border-top: 4px solid rgb(236, 236, 236);
+    .submit-btn button{
+        font-size: calc(0.9rem + 0.5vw);
     }
-    .filter-body-left,
-    .filter-body-right{
-        width: 100%;
-    }
-    .filter-body-left{
-        border-right: none;
-    }
-
-    /* .filter-body .filter-row .row-center .row-top{
-        display: flex;
-        gap: 0.7rem;
-        flex-wrap: wrap;
-        margin-bottom: 0.7rem;
-    } */
 }
+
+
+/* Mobile Filter Body Start */
+#mobile-filter-body{
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+.mobile-filter-body-accordion{
+    width: 100%;
+}
+.mobile-filter-body-accordion .filter-row{
+    padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height: auto;
+    box-shadow: none !important;
+}
+.mobile-filter-body-accordion .filter-row .row-left{
+    width: 15%;
+    margin-right: 0.8rem;
+}
+.mobile-filter-body-accordion .filter-row .row-left p{
+    font-size: calc(0.65rem + 0.5vw);
+}
+.mobile-filter-body-accordion .filter-row .row-center{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0.5rem;
+}
+.mobile-filter-body-accordion .accordion-body .row-center{
+    flex-direction: column;
+}
+.mobile-filter-body-accordion .accordion-body .row-center .row-center-internal-row{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0;
+    margin-bottom: 1.2rem;
+}
+.mobile-filter-body-accordion .accordion-body .row-center .row-center-internal-row:last-child{
+    margin-bottom: 0;
+}
+.mobile-filter-body-accordion #filter-body-1 .input-box img{
+    filter: grayscale(100%);
+}
+.mobile-filter-body-accordion .input-box label p{
+    font-size: calc(0.65rem + 0.5vw) !important;
+    margin-top: 0.3rem;
+}
+
+
+.mobile-filter-body-accordion #filter-row-2 .carat-min-top span,
+.mobile-filter-body-accordion #filter-row-2 .carat-max-top span{
+    font-size: calc(0.7rem + 0.5vw);
+} 
+.mobile-filter-body-accordion #filter-row-2 .carat-min-bottom span,
+.mobile-filter-body-accordion #filter-row-2 .carat-max-bottom span{
+    font-size: calc(1.2rem + 0.5vw);
+}   
+.mobile-filter-body-accordion #filter-row-2 .row-center input{
+    font-size: calc(1rem + 0.5vw);
+} 
+
+.mobile-filter-body-accordion #filter-row-3 .input-box,
+.mobile-filter-body-accordion #filter-body-3 .input-box,
+.mobile-filter-body-accordion #filter-row-4 .input-box,
+.mobile-filter-body-accordion #filter-body-4 .input-box,
+.mobile-filter-body-accordion #filter-row-7 .input-box,
+.mobile-filter-body-accordion #filter-body-7 .input-box{
+    margin-bottom: 0.3rem;
+}  
+.mobile-filter-body-accordion #filter-row-3 .input-box label,
+.mobile-filter-body-accordion #filter-body-3 .input-box label,
+.mobile-filter-body-accordion #filter-row-4 .input-box label,
+.mobile-filter-body-accordion #filter-body-4 .input-box label,
+.mobile-filter-body-accordion #filter-row-7 .input-box label,
+.mobile-filter-body-accordion #filter-body-7 .input-box label{
+    font-size: calc(0.8rem + 0.5vw);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} 
+.mobile-filter-body-accordion #filter-body-5 .input-box img{
+    width: 80%;
+}
+.mobile-filter-body-accordion #filter-body-5 .rectangle-input-box{
+    width: 48%;
+    height: 40px;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.701) 1.95px 1.95px 2.6px;
+    margin-bottom: 0.2rem;
+}
+.mobile-filter-body-accordion .rectangle-input-box label{
+    font-size: calc(0.8rem + 0.5vw);
+}
+.mobile-filter-body-accordion #filter-row-6 .row-center{
+    flex-direction: row;
+}
+.mobile-filter-body-accordion #filter-row-6 .row-center .cut-box{
+    width: 48%;
+}
+.mobile-filter-body-accordion #filter-row-6 .row-center .cut-box-top{
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.mobile-filter-body-accordion #filter-row-6 .row-center .cut-box-top span{
+    font-size: calc(0.8rem + 0.5vw);
+    text-align: left;
+}
+.mobile-filter-body-accordion #filter-body-6 .row-center .cut-box{
+    width: 48%;
+}
+.mobile-filter-body-accordion #filter-body-6 .row-center .rectangle-input-box{
+    width: 100%;
+    height: 40px;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.701) 1.95px 1.95px 2.6px;
+}
+
+
+.mobile-filter-body-accordion .filter-row .row-right{
+    width: 8%;
+}
+.mobile-filter-body-accordion .filter-row .row-right i{
+    font-size: calc(1.5rem + 0.5vw);
+    margin-top: -5px;
+}
+.mobile-filter-body-accordion .accordion-item{
+    border-bottom: 4px solid rgb(236, 236, 236);
+}
+.mobile-filter-body-accordion .accordion-body{
+    padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+}
+.mobile-filter-body-accordion .accordion-button::after {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    #mobile-filter-body{
+        display: none;
+    }
+}
+/* Mobile Filter Body End */
