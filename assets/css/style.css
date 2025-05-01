@@ -1797,75 +1797,13 @@ header i:hover{
 
 /* Showrooms Start */
 .showrooms{
-    padding: 0 5% 1rem 5%;
+    padding: 3rem 5% 2rem 5%;
     margin-top: 0.5rem;
     background-color: #f3f2f7;
 }
-.showrooms .two-text-head{
-    margin: 0;
-    padding: 0;
-}
-.showrooms .showroom-content{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-}
-.showrooms .showroom-left{
-    width: 59%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3%;
-}
-.showrooms .showroom-left .showroom-box{
-    width: 30%;
-    margin-bottom: 1rem;
-    position: relative;
-}
-.showrooms .showroom-left .showroom-box h4{
-    font-size: calc(0.9rem + 0.5vw);
-    color: #000;
-    cursor: pointer;
-    width: max-content;
-    border-bottom: 1px solid #f5bbba88;
-}
-.showrooms .showroom-left .showroom-box h4 i{
-    font-size: calc(0.7rem + 0.5vw);
-    margin-left: 3px;
-}
-.showrooms .showroom-left .showroom-box h4 a{
-    text-decoration: none;
-    color: #000;
-}
-.showrooms .showroom-left .showroom-body{
-    background-color: #fff;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
-    display: none;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-.showrooms .showroom-left .showroom-body.active{
-    display: block;
-}
-.showrooms .showroom-left .showroom-body a{
-    display: block;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #2d2d2d;
-    font-size: calc(0.55rem + 0.5vw);
-    padding: 0.3rem 1rem;
-    border-bottom: 1px solid #b8b8b8;
-}
-.showrooms .showroom-left .showroom-body a:last-child{
-    border-bottom: none;
-}
-.showrooms .showroom-left .showroom-body a:hover{
-    color: #f7b5b4;
-}
-
 
 .showrooms .showroom-right{
-    width: 41%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1903,22 +1841,9 @@ header i:hover{
 /* For 110% in 15 inch screens */
 @media screen and (min-width: 1230px) and (max-width: 1399px){
     .showrooms{
-        padding: 0 5% 1.3rem 5%;
+        padding: 3.5rem 5% 2.5rem 5%;
     }
-    .showrooms .showroom-left .showroom-box h4{
-        font-size: calc(1rem + 0.5vw);
-        border-bottom: 1.1px solid #f5bbba88;
-    }
-    .showrooms .showroom-left .showroom-box h4 i{
-        font-size: calc(0.8rem + 0.5vw);
-        margin-left: 4px;
-    }
-    .showrooms .showroom-left .showroom-body a{
-        font-size: calc(0.6rem + 0.5vw);
-        padding: 0.35rem 1rem;
-        border-bottom: 1.1px solid #b8b8b8;
-    }
-
+   
     .showrooms .showroom-right h5{
         font-size: calc(1rem + 0.5vw);
     }
@@ -1937,21 +1862,8 @@ header i:hover{
 /* For 100% in 15 inch screens */
 @media screen and (min-width: 1400px) {
     .showrooms{
-        padding: 0 5% 1.5rem 5%;
+        padding: 4.3rem 5% 3rem 5%;
         margin-top: 0.6rem;
-    }
-    .showrooms .showroom-left .showroom-box h4{
-        font-size: calc(1.05rem + 0.5vw);
-        border-bottom: 1.2px solid #f5bbba88;
-    }
-    .showrooms .showroom-left .showroom-box h4 i{
-        font-size: calc(0.85rem + 0.5vw);
-        margin-left: 5px;
-    }
-    .showrooms .showroom-left .showroom-body a{
-        font-size: calc(0.67rem + 0.5vw);
-        padding: 0.4rem 1rem;
-        border-bottom: 1.2px solid #b8b8b8;
     }
 
     .showrooms .showroom-right h5{
