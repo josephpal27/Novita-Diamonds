@@ -30,30 +30,30 @@
 // ----------------------------------------------------------------------------------------
 
 // Functionality for Navbar Content Dropdown
-let webNav = document.querySelector('.web-nav');
-let navMenu = document.querySelectorAll('.web-nav .nav-left ul li');
-let navContent = document.querySelectorAll('.web-nav .nav-content');
+// let webNav = document.querySelector('.web-nav');
+// let navMenu = document.querySelectorAll('.web-nav .nav-left ul li');
+// let navContent = document.querySelectorAll('.web-nav .nav-content');
 
-navMenu.forEach((item, index) => {
-    item.addEventListener('mouseover', () => {
-        navContent.forEach(content => { content.classList.remove('active') });
-        navMenu.forEach(menu => { menu.classList.remove('active') });
-        item.classList.add('active');
-        navContent[index].classList.add('active');
-    });
-});
+// navMenu.forEach((item, index) => {
+//     item.addEventListener('mouseover', () => {
+//         navContent.forEach(content => { content.classList.remove('active') });
+//         navMenu.forEach(menu => { menu.classList.remove('active') });
+//         item.classList.add('active');
+//         navContent[index].classList.add('active');
+//     });
+// });
 
-webNav.addEventListener('mouseleave', () => {
-    navContent.forEach(content => { content.classList.remove('active') });
-    navMenu.forEach(menu => { menu.classList.remove('active') });
-});
+// webNav.addEventListener('mouseleave', () => {
+//     navContent.forEach(content => { content.classList.remove('active') });
+//     navMenu.forEach(menu => { menu.classList.remove('active') });
+// });
 
-navContent.forEach(content => {
-    content.addEventListener('mouseleave', () => {
-        content.classList.remove('active');
-        navMenu.forEach(menu => { menu.classList.remove('active') });
-    });
-});
+// navContent.forEach(content => {
+//     content.addEventListener('mouseleave', () => {
+//         content.classList.remove('active');
+//         navMenu.forEach(menu => { menu.classList.remove('active') });
+//     });
+// });
 
 
 // ----------------------------------------------------------------------------------------
@@ -138,44 +138,44 @@ tabButtons.forEach((button, index) => {
 // ----------------------------------------------------------------------------------------
 
 // Functionality for Home Page Showrooms Dropdown
-let showroomCountries = document.querySelectorAll('.showroom-left .dropdown-box .showroom-head h4');
-let showrooms = document.querySelectorAll('.showroom-left .dropdown-box .showroom-body');
+// let showroomCountries = document.querySelectorAll('.showroom-left .dropdown-box .showroom-head h4');
+// let showrooms = document.querySelectorAll('.showroom-left .dropdown-box .showroom-body');
 
-showroomCountries.forEach((country, index) => {
-  country.addEventListener('click', (event) => {
-    event.stopPropagation(); // Prevent the click from propagating to the document
+// showroomCountries.forEach((country, index) => {
+//   country.addEventListener('click', (event) => {
+//     event.stopPropagation(); // Prevent the click from propagating to the document
 
-    showrooms.forEach((showroom, i) => {
-      const icon = showroomCountries[i].querySelector('i'); // Get the icon inside the current head
-      if (i === index) {
-        showroom.classList.toggle('active'); // Toggle the dropdown visibility
-        icon.classList.toggle('fa-angle-down'); // Toggle the down icon
-        icon.classList.toggle('fa-angle-up'); // Toggle the up icon
-      } else {
-        showroom.classList.remove('active'); // Close other dropdowns
-        icon.classList.remove('fa-angle-up'); // Reset to down icon
-        icon.classList.add('fa-angle-down');
-      }
-    });
-  });
-});
+//     showrooms.forEach((showroom, i) => {
+//       const icon = showroomCountries[i].querySelector('i'); // Get the icon inside the current head
+//       if (i === index) {
+//         showroom.classList.toggle('active'); // Toggle the dropdown visibility
+//         icon.classList.toggle('fa-angle-down'); // Toggle the down icon
+//         icon.classList.toggle('fa-angle-up'); // Toggle the up icon
+//       } else {
+//         showroom.classList.remove('active'); // Close other dropdowns
+//         icon.classList.remove('fa-angle-up'); // Reset to down icon
+//         icon.classList.add('fa-angle-down');
+//       }
+//     });
+//   });
+// });
 
-// Close the dropdown when clicking outside
-document.addEventListener('click', () => {
-  showrooms.forEach((showroom, i) => {
-    showroom.classList.remove('active'); // Close all dropdowns
-    const icon = showroomCountries[i].querySelector('i'); // Reset all icons
-    icon.classList.remove('fa-angle-up');
-    icon.classList.add('fa-angle-down');
-  });
-});
+// // Close the dropdown when clicking outside
+// document.addEventListener('click', () => {
+//   showrooms.forEach((showroom, i) => {
+//     showroom.classList.remove('active'); // Close all dropdowns
+//     const icon = showroomCountries[i].querySelector('i'); // Reset all icons
+//     icon.classList.remove('fa-angle-up');
+//     icon.classList.add('fa-angle-down');
+//   });
+// });
 
 // ----------------------------------------------------------------------------------------
 
 // Functionality For Mobile Header 
-let menuIcon = document.querySelector('.mobile-header-right img');
-let mobileNavbar = document.querySelector('.mobile-nav');
+// let menuIcon = document.querySelector('.mobile-header-right img');
+// let mobileNavbar = document.querySelector('.mobile-nav');
 
-menuIcon.addEventListener('click', () => {
-  mobileNavbar.classList.toggle('active');
-})
+// menuIcon.addEventListener('click', () => {
+//   mobileNavbar.classList.toggle('active');
+// })
