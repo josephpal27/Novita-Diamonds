@@ -1979,11 +1979,19 @@ nav #dropdown-menu-2 .dropdown-item img{
 /* Insta End */
 
 /* Footer Start */
+#footer-linked-top-bar{
+    margin-top: 9rem;
+}
 footer{
-    padding: 12.2rem 5% 1rem 5%;
-    background-color: #f9f9f9;
+    padding: 2rem 5% 1rem 5%;
+    background-color: #fff;
     position: relative;
-    margin-top: 12rem;
+}
+footer .footer-top{
+    display: flex;
+}
+footer .footer-top .footer-card{
+    width: 35%;
 }
 footer .floating-card{
     background-color: #000;
@@ -1991,7 +1999,7 @@ footer .floating-card{
     border-radius: 10px;
     padding: 1.2rem 1.2rem 0.6rem 1.2rem;
     position: absolute;
-    top: -7rem;
+    top: -9.7rem;
     box-shadow: rgba(0, 0, 0, 0.234) 4px 4px 2.6px;
 }
 footer .floating-card .footer-logo{
@@ -2034,13 +2042,17 @@ footer .floating-card .content-row .content-row-right a{
     text-decoration: none;
     color: #fff;
 }
+
+footer .footer-desc{
+    width: 65%;
+}
 footer .footer-desc p{
     font-size: calc(0.7rem + 0.5vw);
     margin: 0;
 }
 footer .copyright{
     border-top: 2px solid #bababa;
-    margin-top: 1.5rem;
+    margin-top: 4.5rem;
     display: flex;
     justify-content: space-between;
     padding-top: 0.7rem;
@@ -2077,8 +2089,14 @@ footer .copyright i{
 
 /* For 110% in 15 inch screens */
 @media screen and (min-width: 1230px) and (max-width: 1399px){
+    #footer-linked-top-bar{
+        margin-top: 10rem;
+    }
     footer{
-        padding: 13.8rem 5% 1rem 5%;
+        padding: 2rem 5% 1rem 5%;
+    }
+    footer .floating-card{
+        top: -10.8rem;
     }
     footer .floating-card .content-row .content-row-left i{
         font-size: calc(0.7rem + 0.5vw);
@@ -2092,6 +2110,7 @@ footer .copyright i{
     }
     footer .copyright{
         padding-top: 0.9rem;
+        margin-top: 5rem;
     }
     footer .copyright p{
         font-size: calc(0.55rem + 0.5vw);
@@ -2107,8 +2126,14 @@ footer .copyright i{
 
 /* For 100% in 15 inch screens */
 @media screen and (min-width: 1400px) {
+    #footer-linked-top-bar{
+        margin-top: 11.7rem;
+    }
     footer{
-        padding: 15rem 5% 1rem 5%;
+        padding: 2.2rem 5% 1.1rem 5%;
+    }
+    footer .floating-card{
+        top: -11.8rem;
     }
     footer .floating-card .content-row .content-row-left i{
         font-size: calc(0.8rem + 0.5vw);
@@ -2122,6 +2147,7 @@ footer .copyright i{
     }
     footer .copyright{
         padding-top: 1rem;
+        margin-top: 5rem;
     }
     footer .copyright p{
         font-size: calc(0.6rem + 0.5vw);

@@ -709,3 +709,21 @@
     }
 }
 /* Mobile Filter Body End */
+
+/* Footer Start */
+#footer-linked-top-bar{
+    margin-top: 11rem;
+}
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    #footer-linked-top-bar{
+        margin-top: 12rem;
+    }
+}
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    #footer-linked-top-bar{
+        margin-top: 13.7rem;
+    }
+}
+/* Footer End */
