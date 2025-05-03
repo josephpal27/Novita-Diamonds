@@ -145,7 +145,8 @@ nav #dropdown-menu-2 .dropdown-item img{
     color: #000;
     transition: color 0.1s ease;
 }
-.right-aligned-menu i:hover {
+.right-aligned-menu i:hover,
+.right-aligned-menu i.active {
     color: #f5bbba;
 }
 .right-aligned-menu button {
