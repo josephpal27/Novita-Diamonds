@@ -18,6 +18,31 @@
     font-style: italic;
     font-weight: 600;
 }
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .cart-head{
+        padding: 1.2rem 5%;
+    }
+    .cart-head h1{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .cart-head a{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+}
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .cart-head{
+        padding: 1.4rem 5%;
+    }
+    .cart-head h1{
+        font-size: calc(2.15rem + 0.5vw);
+    }
+    .cart-head a{
+        font-size: calc(0.82rem + 0.5vw);
+    }
+}
 /* Cart Head End */
 
 /* Cart Body Start */
@@ -47,6 +72,7 @@
     width: 19%;
     text-align: end;
 }
+
 .cart-body .cart-body-products{
     margin-top: 1rem;
 }
@@ -135,6 +161,98 @@
     font-weight: 600;
     font-size: calc(1rem + 0.5vw);
 }
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .cart-body{
+        padding: 1.1rem 5%;
+    }
+    .cart-body .cart-body-head{
+        padding: 0.6rem 1rem;
+    }
+    .cart-body .cart-body-head h2{
+        font-size: calc(0.62rem + 0.5vw);
+    }
+
+    .cart-body .cart-body-products{
+        margin-top: 1.2rem;
+    }
+    .cart-body .cart-body-products .cart-product{
+        padding: 1.2rem 1.1rem;
+        margin-bottom: 1.2rem;
+    }
+    .cart-body .cart-product .product-box .product-desc h3{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .cart-body .cart-product .product-box .product-desc p{
+        font-size: calc(0.67rem + 0.5vw);
+        margin-top: 0.15rem;
+    }
+
+    .cart-body .cart-product .quantity-box button{
+        padding: 0 0.5rem;
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    .cart-body .cart-product .quantity-box input{
+        padding: 0 0 0 0.9rem;
+        font-size: calc(1rem + 0.5vw);
+    }
+
+    .cart-body .cart-product .quantity-box .quantity-delete-btn i{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    
+    .cart-body .cart-product .total-box p{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+}
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .cart-body{
+        padding: 1.2rem 5%;
+    }
+    .cart-body .cart-body-head{
+        padding: 0.67rem 1rem;
+    }
+    .cart-body .cart-body-head h2{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+
+    .cart-body .cart-body-products{
+        margin-top: 1.3rem;
+    }
+    .cart-body .cart-body-products .cart-product{
+        padding: 1.3rem 1.2rem;
+        margin-bottom: 1.3rem;
+    }
+    .cart-body .cart-product .product-box .product-desc h3{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .cart-body .cart-product .product-box .product-desc p{
+        font-size: calc(0.72rem + 0.5vw);
+        margin-top: 0.25rem;
+    }
+
+    .cart-body .cart-product .quantity-box .quantity-btn-row{
+        border: 1.7px solid #000;
+    }
+    .cart-body .cart-product .quantity-box button{
+        padding: 0 0.5rem;
+        font-size: calc(1.37rem + 0.5vw);
+    }
+    .cart-body .cart-product .quantity-box input{
+        padding: 0 0 0 1rem;
+        font-size: calc(1.06rem + 0.5vw);
+    }
+
+    .cart-body .cart-product .quantity-box .quantity-delete-btn i{
+        font-size: calc(0.85rem + 0.5vw);
+    }
+    
+    .cart-body .cart-product .total-box p{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+}
 /* Cart Body End */
 
 /* Checkout Start */
@@ -167,5 +285,39 @@
 }
 .checkout .checkout-right button:hover{
     background-color: #f7bbbb;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .checkout{
+        padding: 1.2rem 5% 2rem 5%;
+    }
+    .checkout .checkout-right h4{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .checkout .checkout-right p{
+        font-size: calc(0.62rem + 0.5vw);
+    }
+    .checkout .checkout-right button{
+        font-size: calc(0.9rem + 0.5vw);
+        padding: 0.45rem 0;
+    }
+}
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .checkout{
+        padding: 1.4rem 5% 2rem 5%;
+    }
+    .checkout .checkout-right h4{
+        font-size: calc(1.27rem + 0.5vw);
+    }
+    .checkout .checkout-right p{
+        font-size: calc(0.66rem + 0.5vw);
+    }
+    .checkout .checkout-right button{
+        font-size: calc(0.95rem + 0.5vw);
+        padding: 0.6rem 0;
+        margin-top: 0.3rem;
+    }
 }
 /* Checkout End */
