@@ -104,6 +104,10 @@
 }
 .cart-body .cart-product .product-box .product-desc a{
     text-decoration: none;
+    color: #000;
+}
+.cart-body .cart-product .product-box .product-desc a:hover{
+    text-decoration: underline;
 }
 .cart-body .cart-product .product-box .product-desc p{
     font-size: calc(0.6rem + 0.5vw);
