@@ -125,15 +125,15 @@ tabButtons.forEach((button, index) => {
       contentTabs[index].classList.remove('hide');
       button.classList.add('active');
 
-      // Scroll to #collection after a 2-second delay
+      // Scroll to #collection after a 0.5-second delay
       setTimeout(() => {
         const target = document.querySelector('#collection');
         if (target) {
-            lenis.scrollTo(target, { duration: 1 }); // Smooth scroll using Lenis
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' }); // Smooth scroll to the target
         }
       }, 500); // 0.5-second delay
   });
-})
+});
 
 // ----------------------------------------------------------------------------------------
 
@@ -179,3 +179,64 @@ tabButtons.forEach((button, index) => {
 // menuIcon.addEventListener('click', () => {
 //   mobileNavbar.classList.toggle('active');
 // })
+
+// ----------------------------------------------------------------------------------------
+
+// Functionality for Wishlist Modal Popup
+let wishlistBtn = document.querySelector('nav .right-aligned-menu #wishlist-btn');
+let wishlistCloseBtn = document.querySelector('#close-wishlist-modal');
+let wishlistModal = document.querySelector('#wishlist-modal');
+
+wishlistBtn.addEventListener('click', () => {
+  wishlistModal.classList.add('active');                             
+})
+wishlistCloseBtn.addEventListener('click', () => {
+  wishlistModal.classList.remove('active');
+})
+
+// Close the modal when clicking outside of it
+document.addEventListener('click', (event) => {
+    if (!wishlistModal.contains(event.target) && !wishlistBtn.contains(event.target)) {
+      wishlistModal.classList.remove('active');
+    }
+});
+// ----------------------------------------------------------------------------------------
+
+
+// Prevent closing the modal when clicking on the remove button and update in database table
+document.querySelectorAll('.wishlist-product-remove-btn i').forEach((removeBtn) => {
+    removeBtn.addEventListener('click', (event) => {
+        event.stopPropagation(); // Prevent the click from propagating to the document
+
+        // Get the parent wishlist product element
+        const wishlistProduct = event.target.closest('.wishlist-product');
+
+        // Get the product ID (assume it's stored in a data attribute for backend use)
+        const productId = wishlistProduct.dataset.id;
+
+        // Remove the product from the frontend
+        wishlistProduct.remove();
+
+        // Send a request to the backend to delete the product from the database
+        fetch('delete_wishlist_product.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ productId: productId }),
+        })
+        .then((response) => response.json())
+        .then((data) => {
+            if (data.success) {
+                console.log(`Product with ID ${productId} removed successfully.`);
+            } else {
+                console.error(`Failed to remove product with ID ${productId}.`);
+            }
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
+    });
+});
+
+// ----------------------------------------------------------------------------------------

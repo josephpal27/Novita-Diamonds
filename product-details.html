@@ -206,7 +206,7 @@
 
                 <!-- Right Aligned Menu -->
                 <div class="right-aligned-menu">
-                    <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                    <a><i class="fa-regular fa-heart" id="wishlist-btn"></i></a>
                     <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
                     <a href="contact.html"><button>Get In Touch</button></a>
                 </div>
@@ -409,6 +409,96 @@
     </footer>  
     <!-- Footer End -->
 
+    <!-- Wishlist Modal Start -->
+    <section class="wishlist-modal" id="wishlist-modal">
+        <div class="wishlist-head">
+            <h1>Your Wishlist -</h1>
+            <i class="fa-solid fa-xmark" id="close-wishlist-modal"></i>
+        </div>
+        <div class="wishlist-sub-head">
+            <h2>Saved Items (5)</h2>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="wishlist-body">
+            <!-- Product 1 -->
+            <div class="wishlist-product" data-id="1"> <!-- use actual product ID from Database -->
+                <div class="wishlist-product-image">
+                    <a href="product-details.html"><img src="assets/images/products/1.jpg" alt="product-image"></a>
+                </div>
+                <div class="wishlist-product-desc">
+                    <h3><a href="product-details.html">Round 0.35 E VVS2</a></h3>
+                    <p><b>Price</b>: Rs. 5,397.00</p>
+                    <p><b>Shape</b>: Round</p>
+                    <p><b>Color</b>: E</p>
+                </div>
+                <div class="wishlist-product-remove-btn">
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="wishlist-product" data-id="2"> <!-- use actual product ID from Database -->
+                <div class="wishlist-product-image">
+                    <a href="product-details.html"><img src="assets/images/products/1.jpg" alt="product-image"></a>
+                </div>
+                <div class="wishlist-product-desc">
+                    <h3><a href="product-details.html">Round 0.35 E VVS2</a></h3>
+                    <p><b>Price</b>: Rs. 5,397.00</p>
+                    <p><b>Shape</b>: Round</p>
+                    <p><b>Color</b>: E</p>
+                </div>
+                <div class="wishlist-product-remove-btn">
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="wishlist-product" data-id="3"> <!-- use actual product ID from Database -->
+                <div class="wishlist-product-image">
+                    <a href="product-details.html"><img src="assets/images/products/1.jpg" alt="product-image"></a>
+                </div>
+                <div class="wishlist-product-desc">
+                    <h3><a href="product-details.html">Round 0.35 E VVS2</a></h3>
+                    <p><b>Price</b>: Rs. 5,397.00</p>
+                    <p><b>Shape</b>: Round</p>
+                    <p><b>Color</b>: E</p>
+                </div>
+                <div class="wishlist-product-remove-btn">
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="wishlist-product" data-id="4"> <!-- use actual product ID from Database -->
+                <div class="wishlist-product-image">
+                    <a href="product-details.html"><img src="assets/images/products/1.jpg" alt="product-image"></a>
+                </div>
+                <div class="wishlist-product-desc">
+                    <h3><a href="product-details.html">Round 0.35 E VVS2</a></h3>
+                    <p><b>Price</b>: Rs. 5,397.00</p>
+                    <p><b>Shape</b>: Round</p>
+                    <p><b>Color</b>: E</p>
+                </div>
+                <div class="wishlist-product-remove-btn">
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="wishlist-product" data-id="5"> <!-- use actual product ID from Database -->
+                <div class="wishlist-product-image">
+                    <a href="product-details.html"><img src="assets/images/products/1.jpg" alt="product-image"></a>
+                </div>
+                <div class="wishlist-product-desc">
+                    <h3><a href="product-details.html">Round 0.35 E VVS2</a></h3>
+                    <p><b>Price</b>: Rs. 5,397.00</p>
+                    <p><b>Shape</b>: Round</p>
+                    <p><b>Color</b>: E</p>
+                </div>
+                <div class="wishlist-product-remove-btn">
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Wishlist Modal End -->
+
     <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
 
     <!-- Bootstrap JS Link -->
@@ -430,20 +520,6 @@
             effect: 'slide',
             speed: 1000,
         });
-    </script>
-
-    <!-- Lenis Scroll Link -->
-    <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
-    <script>
-        const lenis = new Lenis({
-            duration: 0.5, // Adjust the duration for smooth scrolling
-            easing: (t) => t * (2 - t),
-        });
-        function raf(time) {
-            lenis.raf(time);
-            requestAnimationFrame(raf);
-        }
-        requestAnimationFrame(raf);
     </script>
 
     <!-- AOS Animation JS Link -->
