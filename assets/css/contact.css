@@ -1,0 +1,97 @@
+/* Contact Head Start */
+.contact-head{
+    margin: 1rem 5%;
+    overflow: hidden;
+}
+.contact-head h1{
+    font-weight: 600;
+    font-size: calc(1.8rem + 0.5vw);
+    margin: 0;
+    font-style: italic;
+}
+.contact-head .line{
+    width: 100px;
+    height: 3.5px;
+    background-color: #f5bbba;
+}
+.contact-head p{
+    font-weight: 500;
+    font-size: calc(0.7rem + 0.5vw);
+    margin: 0;
+    margin-top: 0.5rem;
+    color: #333333;
+}
+/* Contact Head End */
+
+/* Contact Body Start */
+.contact-body{
+    padding: 1.5rem 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-left{
+    width: 46%;
+}
+.contact-left #faqAccordion{
+    margin-top: 1.4rem;
+}
+.contact-left #faqAccordion .accordion-item{
+    border-radius: 0;
+    border: none;
+    margin-bottom: 1rem;
+}
+.contact-left #faqAccordion .accordion-item button{
+    box-shadow: none !important;
+    border-radius: 0;
+    background-color: #fcebeb;
+    color: #404040; 
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 600;
+}
+.contact-left #faqAccordion .accordion-body{
+    background-color: #fff6f6;
+    background-color: #f6f6f6;
+    color: #000; 
+    margin-top: 0.5rem !important;
+    font-size: calc(0.55rem + 0.5vw);
+}
+
+.contact-right{
+    width: 50%;
+}
+.contact-right input,
+.contact-right textarea{
+    font-size: calc(0.65rem + 0.5vw);
+    margin-bottom: 0.6rem;
+    box-shadow: none !important;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid #d6d6d6 !important;
+    border-radius: 0;
+}
+.contact-right input:focus,
+.contact-right textarea:focus{
+    border-bottom: 1.5px solid #000 !important;
+}
+.contact-right textarea{
+    min-height: 7rem !important;
+    max-height: 12rem !important;
+}
+.contact-right input[type='number']::-webkit-inner-spin-button{
+    display: none;
+}
+.contact-right button{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size: calc(0.8rem + 0.5vw);
+    letter-spacing: 2px;
+    padding: 0.8rem 0;
+    border: none;
+    transition: all 0.2s ease;
+    margin-top: 1rem;
+}
+.contact-right button:hover{
+    background-color: #f5bbba;
+}
+/* Contact Body End */
