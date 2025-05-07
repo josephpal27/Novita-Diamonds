@@ -1461,6 +1461,7 @@ nav #dropdown-menu-2 .dropdown-item img{
     background-color: #000;
     width: 100%;
     border: none;
+    border-radius: 30px;
     margin-top: 0.5rem;
     transition: all 0.1s ease;
 }
@@ -1768,115 +1769,6 @@ nav #dropdown-menu-2 .dropdown-item img{
     }
 }
 /* Lab Diamond End */
-
-/* Can I See Start */
-.can-i-see{
-    padding: 0 5% 1rem 5%;
-}
-.can-i-see .two-text-head{
-    margin: 0;
-    padding: 0;
-}
-.can-i-see p{
-    font-size: calc(0.63rem + 0.5vw);
-    color: #454545;
-}
-.can-i-see p b{
-    color: #000;
-}
-.can-i-see p a{
-    color: #000;
-    font-style: italic;
-    transition: all 0.1s ease;
-}
-.can-i-see p a:hover{
-    color: #faacab;
-}
-.can-i-see h4{
-    font-size: calc(1rem + 0.5vw);
-    font-weight: 600;
-    color: #000;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-}
-.can-i-see-content{
-    display: flex;
-    justify-content: space-between;
-}
-.can-i-see-content .left-content{
-    width: 60%;
-}
-.can-i-see-content .left-content p b{
-    color: #000;
-}
-.can-i-see-content .left-content ul li p{
-    margin: 0;
-}
-.can-i-see-content .right-content{
-    width: 38%;
-}
-.can-i-see-content .right-content img{
-    width: 100%;
-}
-.can-i-see #summary{
-    color: #6f6f6f;
-    font-style: italic;
-    font-size: calc(1.3rem + 0.5vw);
-    margin-top: 2rem;
-}
-.can-i-see .founder-text{
-    margin-bottom: 1.7rem;
-}
-.can-i-see .founder-text h5{
-    color: #23262b;
-    font-style: italic;
-    font-size: calc(0.8rem + 0.5vw);
-    margin: 0;
-}
-.can-i-see .founder-text p{
-    margin: 0;
-}
-
-/* For 110% in 15 inch screens */
-@media screen and (min-width: 1230px) and (max-width: 1399px){
-    .can-i-see p{
-        font-size: calc(0.68rem + 0.5vw);
-    }
-    .can-i-see h4{
-        font-size: calc(1.05rem + 0.5vw);
-        margin-top: 1.2rem;
-    }
-    .can-i-see #summary{
-        font-size: calc(1.35rem + 0.5vw);
-    }
-    .can-i-see .founder-text{
-        margin-bottom: 1.7rem;
-    }
-    .can-i-see .founder-text h5{
-        font-size: calc(0.85rem + 0.5vw);
-    }
-}
-
-/* For 100% in 15 inch screens */
-@media screen and (min-width: 1400px) {
-    .can-i-see p{
-        font-size: calc(0.73rem + 0.5vw);
-    }
-    .can-i-see h4{
-        font-size: calc(1.1rem + 0.5vw);
-        margin-top: 1.4rem;
-    }
-    .can-i-see #summary{
-        font-size: calc(1.4rem + 0.5vw);
-    }
-    .can-i-see .founder-text{
-        margin-bottom: 1.9rem;
-    }
-    .can-i-see .founder-text h5{
-        font-size: calc(0.9rem + 0.5vw);
-    }
-}
-/* Can I See End */
 
 /* Insta Start */
 .insta{
