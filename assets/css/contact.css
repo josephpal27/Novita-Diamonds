@@ -21,6 +21,40 @@
     margin-top: 0.5rem;
     color: #333333;
 }
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .contact-head{
+        margin: 1.2rem 5%;
+    }
+    .contact-head h1{
+        font-size: calc(2.1rem + 0.5vw);
+    }
+    .contact-head .line{
+        width: 115px;
+    }
+    .contact-head p{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.6rem;
+    }
+}
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .contact-head{
+        margin: 1.4rem 5%;
+    }
+    .contact-head h1{
+        font-size: calc(2.2rem + 0.5vw);
+    }
+    .contact-head .line{
+        width: 125px;
+        height: 4px;
+    }
+    .contact-head p{
+        font-size: calc(0.85rem + 0.5vw);
+        margin-top: 0.6rem;
+    }
+}
 /* Contact Head End */
 
 /* Contact Body Start */
@@ -100,5 +134,90 @@
 }
 .contact-right button:hover{
     background-color: #f5bbba;
+}
+
+/* For 110% in 15 inch screens */
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+    .contact-body{
+        padding: 1.7rem 5%;
+    }
+
+    .contact-left #faqAccordion{
+        margin-top: 1.5rem;
+    }
+    .contact-left #faqAccordion .accordion-item{
+        margin-bottom: 1.2rem;
+    }
+    .contact-left #faqAccordion .accordion-item button{
+        font-size: calc(0.75rem + 0.5vw);
+    }
+    .contact-left #faqAccordion .accordion-item button::after {
+        scale: 0.85;
+    }
+    .contact-left #faqAccordion .accordion-body{
+        margin-top: 0.7rem !important;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+
+    .contact-right input,
+    .contact-right textarea{
+        font-size: calc(0.75rem + 0.5vw);
+        margin-bottom: 0.7rem;
+    }
+    .contact-right label{
+        font-size: calc(0.72rem + 0.5vw);
+    }
+    .contact-right textarea{
+        min-height: 8.5rem !important;
+    }
+    .contact-right button{
+        font-size: calc(0.9rem + 0.5vw);
+        padding: 0.9rem 0;
+    }
+}
+/* For 100% in 15 inch screens */
+@media screen and (min-width: 1400px) {
+    .contact-body{
+        padding: 1.8rem 5%;
+    }
+
+    .contact-left #faqAccordion{
+        margin-top: 1.6rem;
+    }
+    .contact-left #faqAccordion .accordion-item{
+        margin-bottom: 1.2rem;
+    }
+    .contact-left #faqAccordion .accordion-item button{
+        font-size: calc(0.8rem + 0.5vw);
+        padding: 1.2rem 1.3rem;
+    }
+    .contact-left #faqAccordion .accordion-item button::after {
+        scale: 0.9;
+    }
+    .contact-left #faqAccordion .accordion-body{
+        margin-top: 0.7rem !important;
+        font-size: calc(0.65rem + 0.5vw);
+    }
+
+    .contact-right input,
+    .contact-right textarea{
+        font-size: calc(0.82rem + 0.5vw);
+        margin-bottom: 0.8rem;
+        border-bottom: 1.8px solid #d6d6d6 !important;
+    }
+    .contact-right input:focus,
+    .contact-right textarea:focus{
+        border-bottom: 1.8px solid #000 !important;
+    }
+    .contact-right label{
+        font-size: calc(0.73rem + 0.5vw);
+    }
+    .contact-right textarea{
+        min-height: 10rem !important;
+    }
+    .contact-right button{
+        font-size: calc(1rem + 0.5vw);
+        padding: 0.9rem 0;
+    }
 }
 /* Contact Body End */
