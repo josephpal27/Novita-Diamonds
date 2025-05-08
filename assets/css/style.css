@@ -2302,4 +2302,42 @@ footer .copyright i{
         font-size: calc(0.6rem + 0.5vw);
     }
 }
+
+/* For mobile screens */
+@media screen and (max-width: 768px) {
+    .wishlist-modal{
+        width: 90%;
+        height: 100vh;
+    }
+    .wishlist-head h1{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .wishlist-head i{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .wishlist-sub-head{
+        padding: 0.8rem 0;
+        gap: 1.7rem;
+        border-bottom: 1.3px solid #f5bbba;
+    }
+    .wishlist-sub-head h2{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .wishlist-sub-head a{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .wishlist-body .wishlist-product{
+        border-bottom: 1.3px solid #faacab;
+    }
+
+    .wishlist-body .wishlist-product .wishlist-product-desc h3{
+        font-size: calc(0.92rem + 0.5vw);
+    }
+    .wishlist-body .wishlist-product .wishlist-product-desc p{
+        font-size: calc(0.72rem + 0.5vw);
+    }
+    .wishlist-body .wishlist-product .wishlist-product-remove-btn i{
+        font-size: calc(0.72rem + 0.5vw);
+    }
+}
 /* Wishlist Modal End */
