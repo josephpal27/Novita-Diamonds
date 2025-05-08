@@ -719,6 +719,13 @@ nav #dropdown-menu-2 .dropdown-item img{
         margin-left: 0.4rem;
     }
 }
+
+/* For small screens */
+@media screen and (max-width: 768px) {
+    .virtual-appointment a{
+        font-size: calc(0.64rem + 0.5vw);
+    }
+}
 /* Virtual Appointment End */
 
 /* Collection Head Start */
@@ -2054,6 +2061,67 @@ footer .copyright i{
     }
     footer .copyright i{
        font-size: calc(0.68rem + 0.5vw);
+    }
+}
+
+/* For mobile screens */
+@media screen and (max-width: 768px) {
+    #footer-linked-top-bar{
+        margin-top: 4rem !important;
+    }
+    footer{
+        padding: 2rem 5% 0.5rem 5%;
+    }
+    footer .footer-top .footer-card{
+        width: 0;
+    }
+    footer .floating-card{
+        width: 89.5%;
+        padding: 1.2rem 1.2rem 0.6rem 1.2rem;
+        top: 1rem;
+    }
+    footer .floating-card .content-row .content-row-left i{
+        font-size: calc(0.85rem + 0.5vw);
+        margin-top: 5px;
+    }
+    footer .floating-card .content-row .content-row-right p{
+        font-size: calc(0.87rem + 0.5vw);
+    }
+
+    footer .footer-desc{
+        width: 100%;
+        margin-top: 17rem;
+    }
+    footer .footer-desc p{
+        font-size: calc(0.86rem + 0.5vw);
+    }
+    footer .copyright{
+        padding-top: 0.5rem;
+        margin-top: 1.5rem;
+    }
+    footer .copyright p{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    footer .copyright .social-icons{
+        gap: 0.7rem;
+    }
+    footer .copyright .box{
+        width: 25px;
+        height: 25px;
+    }
+    footer .copyright i{
+       font-size: calc(0.65rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 410px) {
+    footer .footer-desc{
+        margin-top: 17.5rem;
+    }
+}
+@media screen and (min-width: 410px) and (max-width: 768px) {
+    footer .footer-desc{
+        margin-top: 18.2rem;
     }
 }
 /* Footer End */
