@@ -205,6 +205,48 @@
         border: 2.5px solid #f5bbba;
     }
 }
+
+/* For mobile screens */
+@media screen and (max-width: 768px){
+    .product-details{
+        margin: 1.5rem 5% 4rem 5%;
+        flex-direction: column;
+    }
+    .product-details .product-details-left{
+        width: 100%;
+    }
+    .product-details .product-details-right{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .product-details .product-details-right .product-name h2{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .product-details .product-details-right .product-price h2{
+        font-size: calc(1.45rem + 0.5vw);
+    }
+    .product-details .product-details-right .product-price i{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .product-details .product-details-right .diamond-details h3{
+        font-size: calc(1rem + 0.5vw);
+    }
+
+    .product-details .product-details-right .diamond-details .diamond-row{
+        flex-wrap: wrap;
+        margin-bottom: 0.4rem;
+    }
+    .product-details .product-details-right .diamond-details .diamond-row .row-content{
+        width: 50%;
+    }
+    .product-details .product-details-right .btn-row  button{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .product-details .product-details-right .btn-row  button i{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+}
 /* Product Details End */
 
 /* Footer Start */
