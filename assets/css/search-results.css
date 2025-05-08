@@ -92,6 +92,31 @@
         padding: 0.4rem 1.4rem;
     }
 }
+
+/* For small screens */
+@media screen and (max-width: 768px) {
+    /* .search-results-head{
+        margin: 0 5%;
+        padding: 1.5rem 0 0.8rem 0;
+    }
+    .search-results-head-content{
+        gap: 0.5rem;
+    }
+    .search-results-head-content .fa-caret-left{
+        display: none;
+    }
+    .search-results-head-content h1{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .search-results-head-content span{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .search-results-head-content button{
+        font-size: calc(0.55rem + 0.5vw);
+        border: 2px solid #000;
+        padding: 0.35rem 1rem;
+    } */
+}
 /* Search Results Head End */
 
 /* Sort Menu Start */
