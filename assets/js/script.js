@@ -52,7 +52,7 @@ const productSwiper = new Swiper(".product-slider .swiper-container", {
 
 // ----------------------------------------------------------------------------------------
 
-// Functionality For Filter Sort Dropdown
+// Functionality For Home Page Filter Sort Dropdown
 document.querySelectorAll('.filter-sort-head h1').forEach((head, index) => {
   head.addEventListener('click', (event) => {
       // Prevent the click from propagating to the document
