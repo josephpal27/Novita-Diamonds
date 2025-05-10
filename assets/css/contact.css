@@ -55,6 +55,24 @@
         margin-top: 0.6rem;
     }
 }
+
+/* For small screens */
+@media screen and (max-width: 768px) {
+    .contact-head{
+        margin: 0.5rem 5%;
+    }
+    .contact-head h1{
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    .contact-head .line{
+        width: 70px;
+        height: 2.5px;
+    }
+     .contact-head p{
+        font-size: calc(0.85rem + 0.5vw);
+        margin-top: 0.6rem;
+    }
+}
 /* Contact Head End */
 
 /* Contact Body Start */
@@ -218,6 +236,44 @@
     .contact-right button{
         font-size: calc(1rem + 0.5vw);
         padding: 0.9rem 0;
+    }
+}
+
+/* For small screens */
+@media screen and (max-width: 768px) {
+    .contact-body{
+        padding: 1rem 5% 0 5%;
+        flex-direction: column-reverse;
+    }
+    .contact-left{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .contact-left #faqAccordion .accordion-item button{
+        font-size: calc(0.9rem + 0.5vw);
+        padding: 1rem 1rem;
+    }
+    .contact-left #faqAccordion .accordion-body{
+        font-size: calc(0.85rem + 0.5vw);
+        padding: 1rem 1rem;
+    }
+
+    .contact-right{
+        width: 100%;
+    }
+    .contact-right input,
+    .contact-right textarea{
+        font-size: calc(0.95rem + 0.5vw);
+        margin-bottom: 0.3rem;
+        border-bottom: 1.6px solid #d6d6d6 !important;
+    }
+    .contact-right input:focus,
+    .contact-right textarea:focus{
+        border-bottom: 1.6px solid #000 !important;
+    }
+    .contact-right button{
+        font-size: calc(1rem + 0.5vw);
+        margin-top: 1rem;
     }
 }
 /* Contact Body End */
