@@ -1147,7 +1147,7 @@ nav #dropdown-menu-2 .dropdown-item img{
     }
     .collection-row .card .card-img .new{
         top: 0.7rem;
-        border: 1.6px solid #000;
+        border: 1.5px solid #000;
         font-size: calc(0.6rem + 0.5vw);
         padding: 1px 9px 0 6px;
         border-top-right-radius: 15px;
@@ -1269,6 +1269,25 @@ nav #dropdown-menu-2 .dropdown-item img{
         margin-top: 1rem;
     }
 }
+
+/* For small screens */
+@media screen and (max-width: 768px) {
+    .two-text-head{
+        padding: 2rem 5% 0.5rem 5%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .two-text-head span{
+        display: none;
+    }
+    .two-text-head h2{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .two-text-head h3{
+        font-size: calc(1rem + 0.5vw);
+        margin-top: 0;
+    }
+}
 /* Two Text Head End */
 
 /* Local Stock Start */
@@ -1363,6 +1382,28 @@ nav #dropdown-menu-2 .dropdown-item img{
         margin-top: 0.9rem;
     }
 }
+
+/* For small screens */
+@media screen and (max-width: 768px){
+    .local-stock img{
+        height: 60vh;
+        object-fit: cover;
+    }
+    .local-stock-content{
+        flex-direction: column;
+    }
+    .local-stock-content h3{
+        font-size: calc(1.1rem + 0.5vw);
+        margin-bottom: 0.3rem;
+    }
+    .local-stock-content p{
+        font-size: calc(0.75rem + 0.5vw);
+        color: #fff;
+    }
+    .local-stock-content button{
+        font-size: calc(0.75rem + 0.5vw);
+    }
+}
 /* Local Stock End */
 
 /* Showrooms Start */
@@ -1449,6 +1490,24 @@ nav #dropdown-menu-2 .dropdown-item img{
         gap: 2.5rem;
         margin-top: 0.58rem;
         font-size: calc(0.85rem + 0.5vw);
+    }
+}
+
+/* For small screens */
+@media screen and (max-width: 768px){
+    .showrooms{
+        padding: 2.5rem 5% 1.5rem 5%;
+    }
+    .showrooms .showroom-right h5{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .showrooms .showroom-right button{
+        font-size: calc(0.8rem + 0.5vw);
+        padding: 0.4rem 0;
+    }
+    .showrooms .showroom-right .call-expert-row{
+        gap: 1rem;
+        font-size: calc(0.75rem + 0.5vw);
     }
 }
 /* Showrooms End */
@@ -1541,6 +1600,24 @@ nav #dropdown-menu-2 .dropdown-item img{
     .recently-purchased .product-slider .swiper-slide p{
         font-size: calc(0.55rem + 0.5vw);
         line-height: 1.3;
+    }
+}
+
+/* For small screens */
+@media screen and (max-width: 768px) {
+    .recently-purchased{
+        padding: 1.3rem 5%;
+    }
+    .recently-purchased #recently-purchased-sub-head{
+        margin-top: 0.3rem;
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    .recently-purchased .product-slider .swiper-slide h5{
+        font-size: calc(0.7rem + 0.5vw);
+        margin-bottom: 0.3rem;
+    }
+    .recently-purchased .product-slider .swiper-slide p{
+        font-size: calc(0.55rem + 0.5vw);
     }
 }
 /* Recently Purchased End */
@@ -1698,6 +1775,51 @@ nav #dropdown-menu-2 .dropdown-item img{
         margin-top: 0.3rem;
     }
 }
+
+/* For small screens */
+@media screen and (max-width: 767px) {
+    .lab-diamond .lab-diamond-content{
+        flex-direction: column;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-banner{
+        width: 100%;
+        margin-top: 0.7rem;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row{
+        width: 100%;
+        margin-top: 1.2rem;
+    }
+
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row{
+        gap: 5%;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card{
+        width: 47.5%;
+        margin-bottom: 1.2rem;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-img .new{
+        top: 0.7rem;
+        border: 1.5px solid #000;
+        font-size: calc(0.6rem + 0.5vw);
+        padding: 1px 9px 0 6px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body{
+        padding: 0.4rem 0.2rem;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body h2{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.35rem;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body p{
+        font-size: calc(0.6rem + 0.5vw);
+        text-align: center;
+    }
+    .lab-diamond .lab-diamond-content .lab-diamond-card-row .card .card-body h1{
+        font-size: calc(1rem + 0.5vw);
+    }
+}
 /* Lab Diamond End */
 
 /* Insta Start */
@@ -1800,6 +1922,25 @@ nav #dropdown-menu-2 .dropdown-item img{
         top: -2.5px;
         left: -12px;
         width: 40px;
+    }
+}
+
+/* For small screens */
+@media screen and (max-width: 768px) {
+    .insta{
+        padding: 1.2rem 5% 0 5%;
+    }
+    .insta .two-text-head button{
+        padding: 0.3rem 1rem 0.2rem 1rem;
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    .insta .insta-img-row{
+        margin-top: 1rem;
+    }
+    .insta .faq img{
+        top: -1px;
+        left: -8px;
+        width: 32px;
     }
 }
 /* Insta End */

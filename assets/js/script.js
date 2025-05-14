@@ -36,7 +36,7 @@ const bannerSwiper = new Swiper(".banner-slider .swiper-container", {
 // Functionality for Home Page Products Swiper Initialization
 const productSwiper = new Swiper(".product-slider .swiper-container", {
   loop: true,
-  slidesPerView: 4,
+  slidesPerView: 2,
   spaceBetween: 25,
   slidesPerGroup: 1,
   navigation: {
@@ -48,6 +48,11 @@ const productSwiper = new Swiper(".product-slider .swiper-container", {
     disableOnInteraction: false,
   },
   speed: 1000,
+  breakpoints: {
+    767: {
+      slidesPerView: 4,
+    },
+  },
 });
 
 // ----------------------------------------------------------------------------------------
