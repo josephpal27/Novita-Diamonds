@@ -1145,6 +1145,73 @@ nav #dropdown-menu-2 .dropdown-item img{
         width: 47.5%;
         margin-bottom: 1.2rem;
     }
+    .collection-row .card .card-img .new{
+        top: 0.7rem;
+        border: 1.6px solid #000;
+        font-size: calc(0.6rem + 0.5vw);
+        padding: 1px 9px 0 6px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .collection-row .card .card-img #guaranteed-img{
+        width: 67px;
+    }
+    .collection-row .card .card-body img{
+        width: 97px;
+    }
+    .collection-row .card .card-body #guaranteed-img{
+        width: 65px;
+    }
+    .collection-row .card .card-body{
+        padding: 0.4rem 0.2rem;
+    }
+    .collection-row .card .card-body h2{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.35rem;
+    }
+    .collection-row .card .card-body p{
+        font-size: calc(0.53rem + 0.5vw);
+    }
+    .collection-row .card .card-body h1{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .collection-row .card .card-body h1 span{
+        font-size: calc(0.5rem + 0.5vw);
+    }
+    .collection-row .card-body label{
+        font-size: calc(0.5rem + 0.5vw) !important;
+        margin-top: 5px;
+    }
+    .collection-row .explore-card button{
+        font-size: calc(0.5rem + 0.5vw);
+        padding: 0.22rem 0;
+    }
+    .collection-row .explore-card .card-body p{
+        font-size: calc(0.6rem + 0.5vw) !important;
+    }
+    .collection-row .explore-card .card-body p span{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+
+    .ready-to-ship{
+        margin: 0.5rem 0 1.75rem 0;
+    }
+    .ready-to-ship p{
+        font-size: calc(0.62rem + 0.5vw);
+    }
+
+    .tab-btn-row{
+        margin: 2rem auto 0 auto;
+        border-bottom: 1.2px solid #d3d3d3;
+        width: 80%;
+    }
+    .tab-btn-row button{
+        width: 20%;
+        font-size: calc(0.85rem + 0.5vw);
+    }
+    .tab-btn-row button.active{
+        font-weight: 700;
+    }
 }
 /* Collection End */
 
