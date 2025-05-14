@@ -77,13 +77,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateEstimatedTotal() {
     const totalElement = document.getElementById("estimated-total");
+    const cartItems = document.querySelectorAll(".cart-product");
+    const emptyCartDiv = document.querySelector(".empty-cart");
+
     let totalAmount = 0;
 
-    document.querySelectorAll(".cart-product").forEach((item) => {
-      const qty = parseInt(item.querySelector(".qty-input").value);
-      const unitPrice = parseFloat(item.dataset.price);
-      totalAmount += qty * unitPrice;
-    });
+    if (cartItems.length === 0) {
+      // No items, show the empty cart
+      emptyCartDiv.classList.add("show");
+    } else {
+      // Items exist, hide the empty cart
+      emptyCartDiv.classList.remove("show");
+
+      cartItems.forEach((item) => {
+        const qty = parseInt(item.querySelector(".qty-input").value);
+        const unitPrice = parseFloat(item.dataset.price);
+        totalAmount += qty * unitPrice;
+      });
+    }
 
     totalElement.textContent = totalAmount.toLocaleString("en-IN", {
       minimumFractionDigits: 2,
